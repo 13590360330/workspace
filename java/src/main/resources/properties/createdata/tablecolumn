@@ -1,7 +1,0 @@
-itl_demo1=start_dt,apply_id,user_id,id_number,phone_number,credit_card_number,limits,borrow_id,total_amount,used_credit_line,name,sex,applied_amount,status,audit_status,interest,service_charge,interest_penalty,repayment_id,sequence_number,ori_rep_time,ori_rep_amount,ori_rep_rate,rep_amount,rep_rate,rep_time,payment,end_dt
-itl_demo1_afc_d=start_dt,apply_id,user_id,id_number,phone_number,credit_card_number,audit_status,limits,end_dt
-itl_demo1_borrow_money_d=start_dt,borrow_id,user_id,applied_amount,status,audit_status,interest,service_charge,interest_penalty,end_dt
-itl_demo1_quota_management_i=start_dt,user_id,borrow_id,total_amount,used_credit_line,end_dt
-itl_demo1_repayment_i=start_dt,repayment_id,borrow_id,sequence_number,ori_rep_time,ori_rep_amount,ori_rep_rate,rep_amount,rep_rate,rep_time,payment,end_dt
-itl_demo1_user_info_item_d=start_dt,user_id,end_dt
-itl_demo1_users_d=start_dt,user_id,name,sex,id_number,end_dt
