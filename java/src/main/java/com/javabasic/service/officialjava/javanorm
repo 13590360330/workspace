@@ -1,0 +1,194 @@
+1,java层次
+com.domain:首先写javaBean
+com.service:然后写service，service中写的是业务需求(例如登录、注册、查询更新等)
+com.dao:再写dao，dao一般用来定义数据库中的增删改查，以及写一些之后需要用到的方法，例如删除全部或者根据id删除其中一项等。
+    daoImpl中则是实现dao中的方法。这些写完后要写serviceImpl，实现service中的登录注册等方法，此时需要调用dao接口中相应的方法来实现。
+
+3,Java泛型编程的边界可以是多个，使用如<T extends A & B & C>语法来声明，其中只能有一个是类，并且只能是extends后面的第一个为类，
+其他的均只能为接口(和类/接口中的extends意义不同)。
+
+4,null是代表不确定的对象,null本身不是对象，也不是Object的实例,在定义变量的时候，如果定义后没有给变量赋值，则Java在运行时会自动给
+变量赋值。赋值原则是整数类型int、byte、short、long的自动赋值为0，带小数点的float、double自动赋值为0.0，boolean的自动赋值为false，
+其他各供引用类型变量自动赋值为null。null的其他作用:a-判断一个引用类型数据是否null用==来判断。b-释放内存，让一个非null的引用类型变量
+指向null。这样这个对象就不再被任何对象应用了。等待JVM垃圾回收机制去回收。
+null就是null,空就是空   aa=null aa引用类型变量指向null,而aa="" 这是空串是不一样的这个用aa.isEmpty()来判断
+
+5,正则表达式的() [] {}有不同的意思。
+ () 是为了提取匹配的字符串。表达式中有几个()就有几个相应的匹配字符串。(\s*)表示连续空格的字符串。
+ []是定义匹配的字符范围。比如 [a-zA-Z0-9] 表示相应位置的字符要匹配英文字符和数字。[\s*]表示空格或者*号。
+ {}一般用来表示匹配的长度，比如 \s{3} 表示匹配三个空格，\s{1,3}表示匹配一到三个空格。
+ (0-9) 匹配 '0-9′ 本身。 [0-9]* 匹配数字（注意后面有 *，可以为空）[0-9]+ 匹配数字（注意后面有 +，不可以为空）{1-9} 写法错误。
+ [0-9]{0,9} 表示长度为 0 到 9 的数字字符串
+
+6,String.join和StringUtils.join()有区别，参数顺序不一样，另外，StringUtils.join(）可以传入Integer或者其他类型的集合或数,
+ 字符串类型的集合或数组推荐使用String.join()。
+
+7,new File不属于流不用关流
+
+8,获取当前类路径:this.getClass().getResource("")
+
+9,流的lambda体中只能从外界传非final变量,可以传对象,因为final引用不能修改指向哪个引用,但是可以修改所有引用的那个对象本身
+
+10,java的基本类型:浮点型,整型,字符型和布尔型. 字符型的父类String.浮点型,整型的父类number,boolean的父类object
+
+11,String.format("%10s",str) 如果 str的长度小于10,得到str的左边补充空格(默认)的对象,使长度达到10,如果超过会str,得到值等于str的对象
+   String.format("%-10s",str) 如果 str的长度小于10,得到str的右边补充空格(默认)的对象,使长度达到10,如果超过会str,得到值等于str的对象
+
+12,break:只中断最内层循环,一个循环中可以出现多条break,但过多的break语句会破坏代码的结构,其次,某条switch语句中使用break语句,只会影响该switch语句,不会结束任何外层循环
+   continue:提前终止循环的一次迭代
+   return:程序的执行控制转移给方法的调用者,return语句会立即终止执行该语句的方法,包括main()方法
+
+13,可变长度参数:1:必须在方法参数的最后,2:一个方法只能有一个可变参数,3:有可变参数的方法最好不要重载,例如vetest(int a)方法重载vetest(boolean a)为方法,当调用时不传参数vetest(),
+   就无法区分是调用的哪个方法(模糊性),导致编译错误
+
+15,equals()方法比较String对象中的字符,"=="运算符比较对两个对象的引用,查看他们是否指向相同的实例
+
+16,StringBuffer是线程安全的,重要的方法:
+   a.length()
+   b.capacity()
+   c.setLength()设置StringBuffer对象中字符串的长度,charAt()与setCharAt()
+   d.getChars()将StringBuffer对象的子串复制到数组中
+   e.append()
+   f.insert()
+   g.reverse()颠倒StringBuffer对象中的字符
+   h.delete()和deleteCharAt()
+   i.replace()
+   j.substring()
+   k.其他
+
+17，驼峰命名法，
+   类,枚举,枚举常量     --AppExample
+   方法                --appExample
+   常量,变量            --appexample
+
+18,关于二进制最高位1和0
+   整数有“有符号整数”和“无符号整数”之分，比如8位的整数，如果按无符号整数来用，那么最小值0（二进制0000-0000），最大值是255（1111-1111），总数是256个，
+   而如果作为有符号整数来用，则最小值为-128（二进制1000-0000），最大值为127（0111-1111），总数也还是256个。由于8位整数的容量太小（只有256个），
+   所以在大多数程序设计语言中都把8位整数设为无符号整数（即0到255，通常叫做字节型或Byte型,在java中byte是有符号的8位）。
+   而16位、32位、64位整数则通常都是有符号整数：
+
+   16位整数的最小值为 -32768（二进制 1000-0000-0000-0000），最大值为32767（0111-1111-1111-1111），如果超过这个范围（比如32768），
+   那么程序就会报“溢出”的错误，这种情况下就要扩大数的位数才行了。
+
+   32位和64位的原理是一样的，这里就不列出来了。
+
+   所以说8位二进制整数 都是无符号整数（但也必须知道，无符号整数只有正数和0，没有负数）。
+   补充说一下：在有符号整数中，最高位称为符号位，就是用它来表示数的正负的，也正因为如此，数值的最大值会减小一半（比如16位整数的65535减少为32767），
+   与此同时，最小值也由0变为负数（-32768），但加起来的总数（65536）是不变的。
+
+   负数的二进制算法
+   比如整数-1。先取1的原码：00000000 00000000 00000000 00000001，得反码： 11111111 11111111 11111111 11111110，最后得补码： 11111111 11111111 11111111 11111111，即-1
+
+19,TODO作用,是标记
+
+20,static,静态代码块只执行一次,当第一次加载类时执行
+          使用规范 静态的方法有一下几个限制
+                  1,它们只能直接调用其他静态方法   ClassName.method()
+                  2,它们只能直接访问其他静态属性   ClassName.field
+                  3,不能以任何方式引用this或super ,super的用法跟this类似，this代表对本类对象的引用，指向本类已经创建的对象；而super代表对父类对象的引用，指向父类对象
+
+          首先重申一个概念：子类会继承父类所有非私有成员变量和方法，包括父类的构造方法,当创建一个子类对象时，首先开辟内存，然后调用类的构造函数，
+
+          这里的构造函数由两部分组成，一部分是从父类继承而来的父类的构造方法，一部	分是子类自己的构造方法，先用从父类继承而来的构造方法初始化从父类继承
+          而来的成员变量，然后调用子类自己的构造方法初始化子类想初始化的变量（可以是子类本身定义的成员变量，也可以是从父类继承而来的成员变量）。
+
+          super和this本质上是同一个对象，只是为了明确调用对它们的功能进行率限制和分工，this调用的是自己的方法成员和从父类继承而来但未被重写的方法成员，
+          而super则是用来调用从父类继承而来的方法成员。
+
+          使用super时,需要访问到父类对象的属性和方法,即子类对象存在了,并且有super的引用,则super指向的父类对象也会相应存在
+
+21.Optional<T>提供避免频繁检查空值的方式,可以包含不存在的对象,而不引起空指针异常,方法:isPresent()判断是否有值,get()获取,
+初始化:Optional.of("a,a,b"),optional.empty()
+
+22.Random r = new Random();随机数生成器
+
+23,数据格式化:Formatter类 P608
+
+24,System.identityHashCode(Object)方法可以返回对象的内存地址,不管该对象的类是否重写了hashCode()方法
+
+25,其实java不是100%的面向对象编程，比如基本数据类型,如int,boolean等等都不是对象，也就是不能用new的方式获取，但是java对这些基本数据类型都有解决办法，就是对着一个封装类型，
+比如int对应着Integer,boolean对应着Boolean,他们都是为了既决基本数据类型面向对象用的。基本数据类型是在栈中创建的，显而易见不是对象；因为对象是在堆中创建的
+1) 基本数据类型的存储原理：所有的简单数据类型不存在“引用”的概念，基本数据类型都是直接存储在内存中的内存栈上的，数据本身的值就是存储在栈空间里面，而Java语言里面八种数据类型是这种存储模型；
+
+2）引用类型的存储原理:引用类型继承于Object类（也是引用类型）都是按照Java里面存储对象的内存模型来进行数据存储的，使用Java内存堆和内存栈来进行这种类型的数据存储，
+简单地讲，“引用”是存储在有序的内存栈上的，而对象本身的值存储在内存堆上的；
+
+
+26,java -cp命令介绍 (java编程思想P112)
+   java -cp .;c:\classes\myClass.jar;d:\classes\*.jar packname.mainclassname  --java -cp .;c:\dir1\lib.jar Test
+   -cp和-classpath 一样，是指定类运行所依赖其他类的路径，通常是类库，jar包之类，需要全路径到jar包，window上";"分隔，linux上是":"分隔。不支持通配符，
+   需要列出所有jar包，用"."代表当前路径。虽然现在都有eclipse之类的IDE了，但有时候后会手工编译和运行一些程序，很多人包括多年开发经验的人都不知道怎么在命令行参数运行类。
+   linux测试
+   -rw-r--r-- 1 etluser etluser 143322320 Sep 25 02:47 bigdata-1.0-SNAPSHOT-shaded.jar
+   -rw-r--r-- 1 etluser etluser   1960374 Jun  5  2019 ojdbc6.jar   --shi类运行的补充jar
+
+   java -cp \
+       .:bigdata-1.0-SNAPSHOT-shaded.jar:${onelife_home}/ojdbc6.jar:${onelife_home}/mysql-connector-java-8.0.21.jar\
+       com.java.com.dao.JdbcConnection     --可以正确执行
+
+   等价于,通配符后面不要跟.jar
+   java -cp \
+        .:bigdata-1.0-SNAPSHOT-shaded.jar:${onelife_home}/*\
+        com.java.com.dao.JdbcConnection     --可以正确执行
+
+
+   /**引入jar示例*/
+   <dependency>
+       <groupId>com.bigdata</groupId>
+       <artifactId>bigdata</artifactId>
+       <version>1.0</version>
+       <scope>system</scope>
+       <systemPath>${project.basedir}/src/resources/lib/ojdbc6.jar</systemPath>
+   </dependency>
+
+27,scope属性
+   依赖范围控制哪些依赖在哪些classpath 中可用，哪些依赖包含在一个应用中。
+
+   compile （编译）
+   compile是默认的范围；如果没有提供一个范围，那该依赖的范围就是编译范围。编译范围依赖在所有的classpath中可用，同时它们也会被打包。
+
+   provided （已提供）
+   provided 依赖只有在当JDK 或者一个容器已提供该依赖之后才使用。例如， 如果你开发了一个web 应用，你可能在编译 classpath 中需要可用的Servlet API 来编译一个servlet，
+   但是你不会想要在打包好的WAR 中包含这个Servlet API；这个Servlet API JAR 由你的应用服务器或者servlet 容器提供。已提供范围的依赖在编译classpath （不是运行时）可用。它们不是传递性的，
+   也不会被打包。
+
+   runtime （运行时）
+   runtime 依赖在运行和测试系统的时候需要，但在编译的时候不需要。比如，你可能在编译的时候只需要JDBC API JAR，而只有在运行的时候才需要JDBC
+   驱动实现。
+
+   test （测试）
+   test范围依赖 在一般的编译和运行时都不需要，它们只有在测试编译和测试运行阶段可用。
+
+   system （系统）
+   system范围依赖与provided类似，但是你必须显式的提供一个对于本地系统中JAR文件的路径。这么做是为了允许基于本地对象编译，而这些对象是系统类库的一部分。这样的构建应该是一直可用的，
+   Maven 也不会在仓库中去寻找它。如果你将一个依赖范围设置成系统范围，你必须同时提供一个systemPath元素。注意该范围是不推荐使用的（建议尽量去从公共或定制的 Maven 仓库中引用依赖）
+
+28.bigdecimal
+   BigDecimal(int)       创建一个具有参数所指定整数值的对象。
+   BigDecimal(double) 创建一个具有参数所指定双精度值的对象。 //不推荐使用
+   BigDecimal(long)    创建一个具有参数所指定长整数值的对象。
+   BigDecimal(String) 创建一个具有参数所指定以字符串表示的数值的对象。//推荐使用
+
+29.Java实现字符与Unicode互转，有两个主要方法：
+   Integer.toHexString();//转码
+   (char)Integer.parseInt();//解码
+
+30.Javac编译器，主要做了如下的事情(编译:java文件->字节码文件(target.classes目录)):
+   1、解析与填充符号表；
+   2、注解处理器；
+   3、语义分析与字节码生成：
+       3.1、标注检查
+       3.2、数据及控制流分析
+       3.3、解语法糖
+           3.3.1、泛型与类型擦除
+           3.3.2、自动装箱、拆箱与遍历循环
+           3.3.3、条件编译
+       3.4、字节码生成
+    编译成class文件：
+    javac -encoding UTF-8 E:\\日常文件\\知识点整理\\CDH\\DW\\project\\中信银行\\BigData\\src\\main\\com\\java\\com.service\\Thinking_In_Java\\io\\OSExecute.java
+    反编译生成字节码(解析class文件生成jvm字节码)
+    javap -c E:\日常文件\知识点整理\CDH\DW\project\中信银行\BigData\src\main\com\java\com.service\Thinking_In_Java\string\Concatenation.class
+
+32.JAVA泛型中<T extends A & B & C>擦除时候应该把T擦除
+    泛型只是编译器行为，而JVM会恪守泛型边界。
+    擦除T发生在编译阶段，上面会用A来替换T,原因是T只是个符号，A、B、C等才是具体的类型，需要转型时编译器会自动插入强制类型转换，
