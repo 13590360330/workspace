@@ -12,12 +12,5 @@
         <module name="spark" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java" target="1.8" />
-      <module name="netty" target="1.8" />
-      <module name="onelife" target="1.8" />
-      <module name="spark" target="1.8" />
-      <module name="workspace" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
