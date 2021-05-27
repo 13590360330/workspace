@@ -18,13 +18,20 @@ public enum IMP {
 
     private String name;
 
+    public static boolean isIMP(String content){
+        return content.matches( "^\\[(SYSTEM|LOGIN|LOGIN|CHAT)\\]" );
+    }
+
     IMP(String name) {
         this.name = name;
     }
 
-    public java.lang.String getName() {
+    public String getName() {
         return name;
     }
 
-
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
