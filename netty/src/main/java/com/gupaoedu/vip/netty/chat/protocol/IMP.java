@@ -21,4 +21,10 @@ public enum IMP {
     IMP(String name) {
         this.name = name;
     }
+
+    public java.lang.String getName() {
+        return name;
+    }
+
+
 }
