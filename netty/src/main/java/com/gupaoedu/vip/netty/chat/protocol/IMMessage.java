@@ -57,4 +57,36 @@ public class IMMessage {
                 ", terminal='" + terminal + '\'' +
                 '}';
     }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public String getCmd() {
+        return cmd;
+    }
+
+    public long getTime() {
+        return time;
+    }
+
+    public int getOnline() {
+        return online;
+    }
+
+    public String getSender() {
+        return sender;
+    }
+
+    public String getReceiver() {
+        return receiver;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public String getTerminal() {
+        return terminal;
+    }
 }
