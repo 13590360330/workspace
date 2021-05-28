@@ -1,7 +1,6 @@
 package com.gupaoedu.vip.netty.chat.server.handler;
 
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.SimpleChannelInboundHandler;
+import io.netty.channel.*;
 import io.netty.handler.codec.http.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -59,7 +58,23 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
             response.headers().set( HttpHeaders.Names.CONTENT_LENGTH, file.length() );
             response.headers().set( HttpHeaders.Names.CONNECTION, HttpHeaders.Values.KEEP_ALIVE );
         }
+        ctx.write( response );
 
+        ctx.write( new DefaultFileRegion( file.getChannel(), 0, file.length() ) );
 
+        ChannelFuture future = ctx.writeAndFlush( LastHttpContent.EMPTY_LAST_CONTENT );
+        if (!keepAlive) {
+            future.addListener( ChannelFutureListener.CLOSE );
+        }
+        file.close();
+    }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
+        Channel client = ctx.channel();
+        log.info( "Client:" + client.remoteAddress() + "异常" );
+        //当出现异常就关闭连接
+        cause.printStackTrace();
+        ctx.close();
     }
 }
