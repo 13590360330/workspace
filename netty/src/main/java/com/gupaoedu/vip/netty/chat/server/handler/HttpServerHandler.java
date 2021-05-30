@@ -8,6 +8,9 @@ import java.io.File;
 import java.io.RandomAccessFile;
 import java.net.URL;
 
+/**
+ * 对http的支持
+ */
 @Slf4j
 public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
 
