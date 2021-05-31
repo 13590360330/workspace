@@ -48,7 +48,6 @@ public class ChatClient {
         }
     }
 
-
     public static void main(String[] args) {
         new ChatClient( "Cover" ).connect( "127.0.0.1", 8080 );
 
