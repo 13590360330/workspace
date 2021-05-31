@@ -36,7 +36,7 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
 
         RandomAccessFile file = null;
         try {
-            String page = uri.equals( "/" ) ? "chat.html" : uri;
+            String page = uri.equals( "/" ) ? "gupaoedu/js/chat.html" : uri;
             file = new RandomAccessFile( getResource( page ), "r" );
         } catch (Exception e) {
             ctx.fireChannelRead( request.retain() );
