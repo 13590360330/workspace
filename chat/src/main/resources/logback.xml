@@ -18,62 +18,38 @@
 
 <configuration>
 
+    <property name="LOG_HOME" value="D:\\workspace\\chat\\src\\main\\resources\\logs"/>
 
-    <appender name="DefaultConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyy-MM-dd HH:mm:ss,GMT+8} %p - %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
             <charset class="java.nio.charset.Charset">UTF-8</charset>
         </encoder>
     </appender>
 
 
-    <appender name="DefaultFileAppender"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./logs/rocketmq_mysql.log</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>./logs/rocketmq_mysql.%i.log
-            </fileNamePattern>
-            <minIndex>1</minIndex>
-            <maxIndex>10</maxIndex>
+    <!--文件日志， 按照每天生成日志文件 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+            <FileNamePattern>${LOG_HOME}/chat-%d{yyyyMMddHHmmss}.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>30</MaxHistory>
         </rollingPolicy>
-        <triggeringPolicy
-            class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <maxFileSize>100MB</maxFileSize>
-        </triggeringPolicy>
-        <encoder>
-            <pattern>%d{yyy-MM-dd HH:mm:ss,GMT+8} %p - %m%n</pattern>
-            <charset class="java.nio.charset.Charset">UTF-8</charset>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
         </encoder>
-    </appender>
-
-    <appender name="PositionAppender"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>./logs/position.log</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-            <fileNamePattern>./logs/position.%i.log
-            </fileNamePattern>
-            <minIndex>1</minIndex>
-            <maxIndex>10</maxIndex>
-        </rollingPolicy>
-        <triggeringPolicy
-            class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-            <maxFileSize>10MB</maxFileSize>
+        <!--日志文件最大的大小-->
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
         </triggeringPolicy>
-        <encoder>
-            <pattern>%d{yyy-MM-dd HH:mm:ss,GMT+8} - %m%n</pattern>
-            <charset class="java.nio.charset.Charset">UTF-8</charset>
-        </encoder>
     </appender>
 
     <root>
         <level value="INFO"/>
-        <appender-ref ref="DefaultConsoleAppender"/>
-        <appender-ref ref="DefaultFileAppender"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
     </root>
-
-    <logger name="PositionLogger" additivity="false">
-        <level value="INFO"/>
-        <appender-ref ref="PositionAppender"/>
-    </logger>
 
 </configuration>
