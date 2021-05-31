@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chat" />
         <module name="java" />
-        <module name="netty" />
         <module name="onelife" />
         <module name="spark" />
       </profile>
