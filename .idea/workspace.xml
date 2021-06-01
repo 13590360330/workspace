@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
     <ignored path="$PROJECT_DIR$/spark/target/" />
@@ -32,7 +30,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,6 +170,17 @@
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,6 +398,7 @@
       <workItem from="1622365582591" duration="5526000" />
       <workItem from="1622422207654" duration="33888000" />
       <workItem from="1622506760337" duration="9608000" />
+      <workItem from="1622539778996" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="version 2">
       <created>1622036912652</created>
@@ -583,12 +593,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71193000" />
+    <option name="totallyTimeSpent" value="71211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1427614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2419571" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,7 +607,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.17847025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.24362606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,9 +675,7 @@
     <entry file="file://$PROJECT_DIR$/java/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/src/main/resources/logs/chat-20210601082649.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/main/resources/logs/chat-20210601082649.log" />
     <entry file="file://$PROJECT_DIR$/chat/src/main/resources/webroot/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-864" />
