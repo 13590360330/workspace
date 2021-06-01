@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tomcat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/SecondServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/src/main/resources/web.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/tomcat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/client/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/client/handler/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/client/handler/ChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -50,44 +32,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chat/src/main/resources/webroot/chat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1818">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tomcat/src/main/resources/web.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -238,7 +183,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622518898890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622519149756" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -443,7 +388,7 @@
       <workItem from="1622202382236" duration="658000" />
       <workItem from="1622365582591" duration="5526000" />
       <workItem from="1622422207654" duration="33888000" />
-      <workItem from="1622506760337" duration="9280000" />
+      <workItem from="1622506760337" duration="9608000" />
     </task>
     <task id="LOCAL-00001" summary="version 2">
       <created>1622036912652</created>
@@ -627,15 +572,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622469820569</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="version 20210601 11:42">
+      <created>1622518963401</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622518963401</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70865000" />
+    <option name="totallyTimeSpent" value="71193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1427614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -689,7 +640,8 @@
     <MESSAGE value="version 20210531 16:06" />
     <MESSAGE value="version 20210531 19:17" />
     <MESSAGE value="version 20210531 22:01" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210531 22:01" />
+    <MESSAGE value="version 20210601 11:42" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210601 11:42" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -980,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1818">
+        <state relative-caret-position="-1810">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
