@@ -11,6 +11,7 @@
         <module name="java" />
         <module name="onelife" />
         <module name="spark" />
+        <module name="tomcat" />
       </profile>
     </annotationProcessing>
   </component>

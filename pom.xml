@@ -12,6 +12,7 @@
         <module>onelife</module>
         <module>spark</module>
         <module>chat</module>
+        <module>tomcat</module>
     </modules>
     <packaging>pom</packaging>
 

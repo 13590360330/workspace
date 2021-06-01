@@ -12,7 +12,7 @@ import org.msgpack.MessagePack;
 import org.msgpack.MessageTypeException;
 
 /**
- * 自定义IM协议的编码器
+ * 自定义IM协议的解码器
  */
 public class IMDecoder extends ByteToMessageDecoder {
 
