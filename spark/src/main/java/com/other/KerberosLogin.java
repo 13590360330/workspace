@@ -1,4 +1,4 @@
-package com.javabasic.dao;
+package com.other;
 
 import org.apache.hadoop.security.UserGroupInformation;
 

@@ -60,7 +60,7 @@ public class ChatClient  {
     
     public static void main(String[] args) throws IOException{
         //每次登陆页面,要获得一个ChatClient对象连接
-		new ChatClient("Cover").connect("127.0.0.1",8080);
+		new ChatClient("Cover").connect("192.168.233.134",8080);
     	
     	String url = "http://localhost:8080/images/a.png";
     	System.out.println(url.toLowerCase().matches(".*\\.(gif|png|jpg)$"));
