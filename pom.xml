@@ -13,6 +13,7 @@
         <module>spark</module>
         <module>chat</module>
         <module>tomcat</module>
+        <module>rpc</module>
     </modules>
     <packaging>pom</packaging>
 

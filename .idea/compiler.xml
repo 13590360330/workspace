@@ -10,6 +10,7 @@
         <module name="chat" />
         <module name="java" />
         <module name="onelife" />
+        <module name="rpc" />
         <module name="spark" />
         <module name="tomcat" />
       </profile>
