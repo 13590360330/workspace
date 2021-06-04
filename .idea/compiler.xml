@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chat" />
         <module name="java" />
+        <module name="netty" />
         <module name="onelife" />
         <module name="rpc" />
         <module name="spark" />
