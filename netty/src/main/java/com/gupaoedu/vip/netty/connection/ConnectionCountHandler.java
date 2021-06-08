@@ -1,21 +1,32 @@
 package com.gupaoedu.vip.netty.connection;
 
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 
-public class ConnectionCountHandler implements ChannelHandler {
-    @Override
-    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
+public class ConnectionCountHandler extends ChannelInboundHandlerAdapter {
+
+    private AtomicInteger nConnection = new AtomicInteger();
+
+    public ConnectionCountHandler() {
+        Executors.newSingleThreadScheduledExecutor().scheduleAtFixedRate( new Runnable() {
+            @Override
+            public void run() {
+                System.out.println( "当前客户端连接数: " + nConnection.get() );
+            }
+        }, 0, 2, TimeUnit.SECONDS );
     }
 
     @Override
-    public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
-
+    public void channelActive(ChannelHandlerContext ctx) {
+        nConnection.incrementAndGet();
     }
 
     @Override
-    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-
+    public void channelInactive(ChannelHandlerContext ctx) {
+        nConnection.decrementAndGet();
     }
 }
