@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
@@ -266,7 +265,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623116809822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623116996294" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -473,21 +472,7 @@
       <workItem from="1622768302349" duration="2234000" />
       <workItem from="1623027083633" duration="2430000" />
       <workItem from="1623066966244" duration="2260000" />
-      <workItem from="1623116563387" duration="71000" />
-    </task>
-    <task id="LOCAL-00001" summary="version 2">
-      <created>1622036912652</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1622036912652</updated>
-    </task>
-    <task id="LOCAL-00002" summary="version 20210527 11:19">
-      <created>1622085587649</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1622085587649</updated>
+      <workItem from="1623116563387" duration="431000" />
     </task>
     <task id="LOCAL-00003" summary="version 20210527 11:24">
       <created>1622085870428</created>
@@ -797,11 +782,46 @@
       <option name="project" value="LOCAL" />
       <updated>1622769348821</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="version 20210608 09:44">
+      <created>1623116698935</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116698935</updated>
+    </task>
+    <task id="LOCAL-00048" summary="version 20210608 09:44">
+      <created>1623116716179</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116716179</updated>
+    </task>
+    <task id="LOCAL-00049" summary="version 20210608 09:44">
+      <created>1623116727730</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116727730</updated>
+    </task>
+    <task id="LOCAL-00050" summary="version 20210608 09:44">
+      <created>1623116798472</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116798472</updated>
+    </task>
+    <task id="LOCAL-00051" summary="version 20210608 09:44">
+      <created>1623116837497</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1623116837497</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115368000" />
+    <option name="totallyTimeSpent" value="115728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -865,7 +885,8 @@
     <MESSAGE value="version 20210601 20:49" />
     <MESSAGE value="version 20210602 20:23" />
     <MESSAGE value="version 20210602 20:26" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210602 20:26" />
+    <MESSAGE value="version 20210608 09:44" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210608 09:44" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1216,8 +1237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
