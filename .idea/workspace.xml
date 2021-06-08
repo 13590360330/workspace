@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
@@ -34,7 +35,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,6 +165,7 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/WeakReferenceDemo.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/FastThreadLocalDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java" />
       </list>
     </option>
   </component>
@@ -162,7 +178,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="workspace" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="workspace" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -191,6 +217,27 @@
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -219,7 +266,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622769239930" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623069869176" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -261,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WeakReferenceDemo">
+  <component name="RunManager" selected="Application.RecyclerDemo">
     <configuration name="ChatServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.netty.chat.server.ChatServer" />
       <module name="springboot" />
@@ -282,15 +329,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GPTomcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.vip.netty.tomcat.GPTomcat" />
-      <module name="tomcat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gupaoedu.vip.netty.tomcat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="RecyclerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecyclerDemo" />
+      <module name="netty" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,20 +426,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.GPTomcat" />
       <item itemvalue="Application.ChatServer (1)" />
       <item itemvalue="Application.FastThreadLocalDemo" />
       <item itemvalue="Application.WeakReferenceDemo" />
+      <item itemvalue="Application.RecyclerDemo" />
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.SpringbootApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecyclerDemo" />
         <item itemvalue="Application.WeakReferenceDemo" />
         <item itemvalue="Application.FastThreadLocalDemo" />
         <item itemvalue="Application.ChatServer (1)" />
         <item itemvalue="Spring Boot.SpringbootApplication (1)" />
-        <item itemvalue="Application.GPTomcat" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +470,10 @@
       <workItem from="1622595565887" duration="9534000" />
       <workItem from="1622682128430" duration="5908000" />
       <workItem from="1622689584709" duration="11701000" />
-      <workItem from="1622768302349" duration="1035000" />
+      <workItem from="1622768302349" duration="2234000" />
+      <workItem from="1623027083633" duration="2430000" />
+      <workItem from="1623066966244" duration="2260000" />
+      <workItem from="1623116563387" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="version 2">
       <created>1622036912652</created>
@@ -746,17 +790,25 @@
       <option name="project" value="LOCAL" />
       <updated>1622769246912</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="version 20210602 20:26">
+      <created>1622769348821</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1622769348821</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109408000" />
+    <option name="totallyTimeSpent" value="115368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.24329759" />
-      <window_info id="Structure" order="1" sideWeight="0.5021216" side_tool="true" weight="0.16085792" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4938918" visible="true" weight="0.18766756" />
+      <window_info id="Structure" order="1" sideWeight="0.5061082" side_tool="true" visible="true" weight="0.18766756" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -821,20 +873,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="47" column="77" lean-forward="true" selection-start-line="47" selection-start-column="77" selection-end-line="47" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tomcat/src/main/resources/webroot/js/lib/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1162,6 +1200,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/util/Recycler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding>
+            <element signature="e#5264#5265#0" expanded="true" />
+            <element signature="e#5317#5318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
