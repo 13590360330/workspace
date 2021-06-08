@@ -11,7 +11,7 @@ import java.util.function.ToLongFunction;
  * 比较器精确的定义了"有序顺序"的含义
  *
  * 1,interface Comparator<T> 这个接口是一个函数是接口,在注解@FuctionalInterface的javadoc中如下说明：
- *     a.函数式接口只有一个抽象方法
+ *     a.函数式接口,有且仅有一个抽象方法，但是可以有多个非抽象方法的接口
  *     b.default方法某默认实现，不属于抽象方法
  *     c.接口重写了Object的公共方法也不算入内（签名相同）
  *     所以，Comparator虽然有两个抽象方法：int compare(T o1, T o2);boolean equals(Object obj);其中 equals为Object的方法，不算入内,所以Comparator可以作为函数式接口。

@@ -12,6 +12,7 @@ import java.util.stream.Stream;
  * 1,格式: MyNumber myNum = (x) -> x*2;
  * 2,lambda表达式有一个重大特性,方法的引用  ClassName::Method (::是JDK8新增的一个分隔符,专门用于方法的引用)
  * 3,stream内部只能有final变量,外部的异常捕获不能捕获stream内的异常
+ * 4,有且仅有一个抽象方法的抽象类(可以含有其他类型方法,但抽象方法只能有一个),其匿名内部类可以使用lamdba表达式
  */
 public class StreamUsage {
 

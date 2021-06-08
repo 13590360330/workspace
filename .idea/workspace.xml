@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/ComparatorUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/ComparatorUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/stream/StreamUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/stream/StreamUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/FastThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/other/FastThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/WeakReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -35,15 +42,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="72">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/FastThreadLocalDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,7 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chat.ht</find>
       <find>logback</find>
       <find>log</find>
       <find>4j</find>
@@ -88,6 +138,9 @@
       <find>栈</find>
       <find>堆</find>
       <find>out</find>
+      <find>abstract</find>
+      <find>函数式接口</find>
+      <find>lambda</find>
     </findStrings>
     <replaceStrings>
       <replace>$PROJECT_DIR$/chat/src/main/resources/logs</replace>
@@ -103,6 +156,7 @@
       <dir>D:\workspace\chat</dir>
       <dir>D:\workspace\chat\src\main\java\com\gupaoedu\vip\netty\chat</dir>
       <dir>D:\workspace\springboot\src\main\java\com\gupaoedu\vip\netty\chat</dir>
+      <dir>D:\workspace\java\src\main\java\com\javabasic\service\officialjava</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -165,6 +219,11 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/FastThreadLocalDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/ComparatorUsage.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/stream/StreamUsage.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java" />
       </list>
     </option>
   </component>
@@ -265,7 +324,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623116996294" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623146786412" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -278,9 +337,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.gupaoedu.vip.netty.chat.client.handler" />
-      <recent name="com.gupaoedu.vip.netty.chat.processor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\netty\src\main\resources\gupaoedu\js" />
+      <recent name="D:\workspace\netty\src\main\resources\gupaoedu" />
+      <recent name="D:\workspace\spark\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\springboot\src\main\java\com" />
@@ -289,10 +349,10 @@
       <recent name="D:\workspace\springboot\src\main\resources\templates" />
       <recent name="D:\workspace\tomcat\src\main\resources" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\netty\src\main\resources\gupaoedu\js" />
-      <recent name="D:\workspace\netty\src\main\resources\gupaoedu" />
-      <recent name="D:\workspace\spark\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gupaoedu.vip.netty.connection" />
+      <recent name="com.gupaoedu.vip.netty.chat.client.handler" />
+      <recent name="com.gupaoedu.vip.netty.chat.processor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,21 +382,21 @@
       </method>
     </configuration>
     <configuration name="FastThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FastThreadLocalDemo" />
+      <option name="MAIN_CLASS_NAME" value="other.FastThreadLocalDemo" />
       <module name="netty" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RecyclerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecyclerDemo" />
+      <option name="MAIN_CLASS_NAME" value="other.RecyclerDemo" />
       <module name="netty" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="WeakReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeakReferenceDemo" />
+      <option name="MAIN_CLASS_NAME" value="other.WeakReferenceDemo" />
       <module name="netty" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -472,14 +532,7 @@
       <workItem from="1622768302349" duration="2234000" />
       <workItem from="1623027083633" duration="2430000" />
       <workItem from="1623066966244" duration="2260000" />
-      <workItem from="1623116563387" duration="431000" />
-    </task>
-    <task id="LOCAL-00003" summary="version 20210527 11:24">
-      <created>1622085870428</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1622085870428</updated>
+      <workItem from="1623116563387" duration="8209000" />
     </task>
     <task id="LOCAL-00004" summary="version 20210527 11:47">
       <created>1622087240411</created>
@@ -817,18 +870,25 @@
       <option name="project" value="LOCAL" />
       <updated>1623116837497</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="version 20210608 09:44">
+      <created>1623117005613</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1623117005613</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115728000" />
+    <option name="totallyTimeSpent" value="123506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4938918" visible="true" weight="0.18766756" />
-      <window_info id="Structure" order="1" sideWeight="0.5061082" side_tool="true" visible="true" weight="0.18766756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16055846" visible="true" weight="0.269437" />
+      <window_info id="Structure" order="1" sideWeight="0.83944154" side_tool="true" weight="0.18766756" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -837,7 +897,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.18838526" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.18838526" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -894,29 +954,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tomcat/src/main/resources/webroot/js/lib/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat/src/main/resources/web.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot/src/main/java/com/example/test/SpringbootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1163,13 +1200,6 @@
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/util/internal/InternalThreadLocalMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-780">
@@ -1189,31 +1219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/FastThreadLocalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/WeakReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/javabasic/service/thinkinginjava/Readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="81" column="17" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/javanorm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" column="85" selection-start-line="109" selection-start-column="84" selection-end-line="109" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -1224,24 +1233,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/stream/StreamUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="68" column="82" lean-forward="true" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/ComparatorUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/javanorm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final-sources.jar!/io/netty/util/Recycler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+        <state relative-caret-position="-252">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1518#1631#0" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
             <element signature="e#5264#5265#0" expanded="true" />
             <element signature="e#5317#5318#0" expanded="true" />
+            <element signature="e#5369#5370#0" expanded="true" />
+            <element signature="e#5439#5440#0" expanded="true" />
+            <element signature="e#7127#7128#0" expanded="true" />
+            <element signature="e#7183#7184#0" expanded="true" />
+            <element signature="e#7218#7219#0" expanded="true" />
+            <element signature="e#7263#7264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/RecyclerDemo.java">
+    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/FastThreadLocalDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
