@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/网课.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -37,68 +41,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Client.java">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -177,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMMessage.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMEncoder.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMDecoder.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/TerminalServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/HttpServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/WebSocketServerHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/chat/server/handler/ChatServer.java" />
@@ -228,6 +180,10 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Client.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioServer.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/resources/readme.txt" />
+        <option value="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" />
       </list>
     </option>
   </component>
@@ -309,7 +265,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,7 +301,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623156454833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623222266634" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -350,22 +314,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\netty\src\main\resources\gupaoedu\js" />
-      <recent name="D:\workspace\netty\src\main\resources\gupaoedu" />
-      <recent name="D:\workspace\spark\src\main\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\springboot\src\main\java\com" />
-      <recent name="D:\workspace\springboot\src\main\resources" />
-      <recent name="D:\workspace\springboot\src\main\resources\static" />
-      <recent name="D:\workspace\springboot\src\main\resources\templates" />
-      <recent name="D:\workspace\tomcat\src\main\resources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gupaoedu.vip.netty.connection" />
       <recent name="com.gupaoedu.vip.netty.chat.client.handler" />
       <recent name="com.gupaoedu.vip.netty.chat.processor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\netty\src\main\resources" />
+      <recent name="D:\workspace\netty\src\main\java\bio" />
+      <recent name="D:\workspace\springboot\src\main\java\com" />
+      <recent name="D:\workspace\springboot\src\main\resources" />
+      <recent name="D:\workspace\springboot\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\netty\src\main\resources\gupaoedu\js" />
+      <recent name="D:\workspace\netty\src\main\resources\gupaoedu" />
+      <recent name="D:\workspace\spark\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,9 +465,9 @@
       <item itemvalue="Application.FastThreadLocalDemo" />
       <item itemvalue="Application.WeakReferenceDemo" />
       <item itemvalue="Application.RecyclerDemo" />
-      <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -545,14 +509,8 @@
       <workItem from="1622768302349" duration="2234000" />
       <workItem from="1623027083633" duration="2430000" />
       <workItem from="1623066966244" duration="2260000" />
-      <workItem from="1623116563387" duration="11816000" />
-    </task>
-    <task id="LOCAL-00006" summary="version 20210528 19:53">
-      <created>1622202832431</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1622202832431</updated>
+      <workItem from="1623116563387" duration="11895000" />
+      <workItem from="1623204541710" duration="1760000" />
     </task>
     <task id="LOCAL-00007" summary="version 20210530 17:26">
       <created>1622366816869</created>
@@ -890,17 +848,24 @@
       <option name="project" value="LOCAL" />
       <updated>1623146837097</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="version 20210608 20:47">
+      <created>1623156474018</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1623156474018</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127113000" />
+    <option name="totallyTimeSpent" value="128952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.16055846" visible="true" weight="0.20643431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16055846" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" sideWeight="0.83944154" side_tool="true" weight="0.18766756" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -910,7 +875,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.31161472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.31161472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -959,7 +924,8 @@
     <MESSAGE value="version 20210602 20:23" />
     <MESSAGE value="version 20210602 20:26" />
     <MESSAGE value="version 20210608 09:44" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210608 09:44" />
+    <MESSAGE value="version 20210608 20:47" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210608 20:47" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -967,43 +933,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/static/images/icon/flower.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/static/images/icon/file.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/static/images/icon/face.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot/src/main/resources/templates/chat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1277,24 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/FastThreadLocalDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1316,41 +1227,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/RecyclerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/other/WeakReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="162">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/网课.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/connection/ConnectionCountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../BIGDATA/software/jdk1.8.0_121/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1189" column="11" selection-start-line="1189" selection-start-column="11" selection-end-line="1189" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="81" lean-forward="true" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
