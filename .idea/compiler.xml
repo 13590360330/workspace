@@ -11,12 +11,14 @@
         <module name="java" />
         <module name="netty" />
         <module name="onelife" />
-        <module name="rpc" />
         <module name="spark" />
         <module name="springboot" />
-        <module name="tomcat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rpc" target="1.8" />
+      <module name="tomcat" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
