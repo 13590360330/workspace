@@ -315,19 +315,12 @@
     3、Netty实战之Echo服务-客户端程序编写实战
         简介：讲解Echo服务客户端程序编写
 
-4、Netty实战之Echo服务演示和整个流程分析
+4、Netty实战之Echo服务演示和整个流程分析 (常用于并发测试)
     简介：分析整个Echo服务各个组件名称和作用
         1）EventLoop和EventLoopGroup
         2) Bootstrapt启动引导类
         3）Channel 生命周期，状态变化
         4）ChannelHandler和ChannelPipline
-
-
-
-
-
-
-
 
 第五章：Netty案例实战分析之核心链路源码讲解
     
@@ -337,7 +330,6 @@
         简介：源码讲解EventLoop和EventLoopGroup模块
         
         1）高性能RPC框架的3个要素：IO模型、数据协议、线程模型
-
 
         2）EventLoop好比一个线程，1个EventLoop可以服务多个Channel，1个Channel只有一个EventLoop
         可以创建多个 EventLoop 来优化资源利用，也就是EventLoopGroup
