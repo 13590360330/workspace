@@ -238,7 +238,7 @@
 
     2、jdk1.4推出NIO,支持非阻塞IO，jdk1.7升级,推出NIO2.0,提供AIO的功能，支持文件和网络套接字的异步IO
 
-7、大话Netty线程模型和Reactor模式
+7、大话Netty线程模型和Reactor模式(Netty4 P116)
     简介：讲解reactor模式 和 Netty线程模型
 
     设计模式——Reactor模式（反应器设计模式），是一种基于事件驱动的设计模式，在事件驱动的应用中，将一个或多个客户的服务请求分离（demultiplex）和调度（dispatch）给应用程序。
@@ -322,8 +322,6 @@
         4）ChannelHandler和ChannelPipline
 
 第五章：Netty案例实战分析之核心链路源码讲解
-    
-    
     1、深入剖析EventLoop和EventLoopGroup线程模型
 
         简介：源码讲解EventLoop和EventLoopGroup模块
@@ -333,19 +331,14 @@
         2）EventLoop好比一个线程，1个EventLoop可以服务多个Channel，1个Channel只有一个EventLoop
         可以创建多个 EventLoop 来优化资源利用，也就是EventLoopGroup
 
-
         3）EventLoopGroup 负责分配 EventLoop 到新创建的 Channel，里面包含多个EventLoop
 
             EventLoopGroup -> 多个 EventLoop 
-                EventLoop -> 维护一个 Selector
-
+                EventLoop -> 维护一个 Selector(nio)
 
             学习资料：http://ifeve.com/selectors/
 
-
         4）源码分析默认线程池数量
-
-    
 
     2、Netty启动引导类Bootstrap模块讲解
 

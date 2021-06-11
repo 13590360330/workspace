@@ -1,175 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="version 20210610 09:13">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/rpc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcHelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/RpcConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/RpcConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/protocol/InvokerProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/protocol/InvokerProtocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcHelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcHelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RegistryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/GPTomcat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/SecondServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/web.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/chat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/100.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/101.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/102.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/103.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/104.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/105.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/106.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/107.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/108.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/109.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/110.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/111.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/112.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/113.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/114.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/115.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/116.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/117.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/118.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/119.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/12.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/120.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/121.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/122.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/123.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/124.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/125.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/126.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/127.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/128.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/129.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/130.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/16.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/17.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/19.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/25.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/26.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/27.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/28.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/29.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/30.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/31.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/33.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/34.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/36.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/37.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/38.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/39.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/40.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/41.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/42.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/43.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/44.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/45.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/46.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/48.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/49.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/51.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/52.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/53.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/54.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/55.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/56.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/57.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/58.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/59.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/61.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/62.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/63.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/64.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/65.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/67.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/68.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/69.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/70.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/71.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/72.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/73.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/74.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/75.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/76.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/77.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/78.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/79.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/80.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/81.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/82.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/83.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/84.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/85.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/86.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/87.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/88.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/89.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/90.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/91.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/92.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/93.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/94.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/95.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/96.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/97.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/98.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/face/99.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/icon/face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/icon/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/icon/flower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/icon/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/photos/Big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/photos/Cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/photos/Tom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/images/photos/Tony.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/js/chat.util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/js/lib/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/main/resources/webroot/js/lib/jquery.snowfall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/src/test/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/tomcat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -202,14 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcService.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="253" column="62" lean-forward="true" selection-start-line="253" selection-start-column="62" selection-end-line="253" selection-end-column="62" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -233,6 +66,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/http/GPServlet.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -247,9 +89,16 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/SecondServlet.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -374,9 +223,9 @@
         <option value="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServer.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" />
         <option value="$PROJECT_DIR$/netty/src/main/java/rpc/consumer/RpcConsumer.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/RpcConsumer.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" />
       </list>
     </option>
   </component>
@@ -435,6 +284,59 @@
             <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -662,21 +564,7 @@
       <workItem from="1623116563387" duration="11895000" />
       <workItem from="1623204541710" duration="10159000" />
       <workItem from="1623287318953" duration="37000" />
-      <workItem from="1623287551199" duration="607000" />
-    </task>
-    <task id="LOCAL-00010" summary="version 20210531 11:05">
-      <created>1622430351780</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1622430351780</updated>
-    </task>
-    <task id="LOCAL-00011" summary="version 20210531 11:05">
-      <created>1622430462085</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1622430462085</updated>
+      <workItem from="1623287551199" duration="3406000" />
     </task>
     <task id="LOCAL-00012" summary="version 20210531 11:29">
       <created>1622431778964</created>
@@ -1007,16 +895,31 @@
       <option name="project" value="LOCAL" />
       <updated>1623287596136</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="version 20210610 09:13">
+      <created>1623288308156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1623288308156</updated>
+    </task>
+    <task id="LOCAL-00060" summary="version 20210610 09:13">
+      <created>1623288572976</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1623288572976</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137995000" />
+    <option name="totallyTimeSpent" value="140794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16055846" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.16055846" visible="true" weight="0.19906166" />
       <window_info id="Structure" order="1" sideWeight="0.83944154" side_tool="true" weight="0.18766756" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1226,13 +1129,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/echo/EchoClient.java" />
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2966">
-          <caret line="328" lean-forward="true" selection-start-line="328" selection-end-line="328" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1275,13 +1171,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/resources/网课2.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/resources/网课.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -1362,7 +1251,28 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/SecondServlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="253" column="62" lean-forward="true" selection-start-line="253" selection-start-column="62" selection-end-line="253" selection-end-column="62" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
