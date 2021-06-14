@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/demo/SystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/TCP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/网课3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/lang/LangUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/lang/LangUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/Old.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/util/collection/Old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/demo/SelectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/demo/SelectorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/网课.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/网课.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/网课2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/网课2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -50,72 +40,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="350" column="72" lean-forward="true" selection-start-line="350" selection-start-column="72" selection-end-line="350" selection-end-column="72" />
+            <state relative-caret-position="302">
+              <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/RpcConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-774">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/protocol/InvokerProtocol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/provider/RpcHelloServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/TCP.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -123,15 +51,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -212,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chat/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMDecoder.java" />
         <option value="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/protocol/IMEncoder.java" />
         <option value="$PROJECT_DIR$/chat/src/main/java/com/gupaoedu/vip/netty/chat/client/handler/ChatClientHandler.java" />
@@ -262,6 +180,7 @@
         <option value="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/officialjava/lang/LangUsage.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/demo/SystemDemo.java" />
         <option value="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java" />
+        <option value="$PROJECT_DIR$/netty/src/main/resources/jpg/网课3.txt" />
         <option value="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" />
       </list>
     </option>
@@ -305,6 +224,17 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,26 +340,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="jpg" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="workspace" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -444,7 +354,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623643880843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623676248537" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -628,10 +538,10 @@
       <item itemvalue="Application.RecyclerDemo" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="Spring Boot.SpringbootApplication" />
-      <item itemvalue="Spring Boot.SpringbootApplication (1)" />
       <item itemvalue="Application.SystemDemo" />
       <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Spring Boot.SpringbootApplication" />
+      <item itemvalue="Spring Boot.SpringbootApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -679,14 +589,8 @@
       <workItem from="1623287551199" duration="3571000" />
       <workItem from="1623397588427" duration="9604000" />
       <workItem from="1623550786214" duration="243000" />
-      <workItem from="1623631550338" duration="9263000" />
-    </task>
-    <task id="LOCAL-00015" summary="version 20210531 15:22">
-      <created>1622445739201</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1622445739201</updated>
+      <workItem from="1623631550338" duration="9438000" />
+      <workItem from="1623675300768" duration="942000" />
     </task>
     <task id="LOCAL-00016" summary="version 20210531 15:22">
       <created>1622446051441</created>
@@ -1024,17 +928,24 @@
       <option name="project" value="LOCAL" />
       <updated>1623635077788</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="version 20210614 09:44">
+      <created>1623643896062</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1623643896062</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160069000" />
+    <option name="totallyTimeSpent" value="161186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.26203966" visible="true" weight="0.19034852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.26203966" visible="true" weight="0.1930295" />
       <window_info id="Structure" order="1" sideWeight="0.73796034" side_tool="true" weight="0.19034852" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1117,12 +1028,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcHelloService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/api/IRpcService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/tomcat/servlet/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1392,12 +1297,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../BIGDATA/software/jdk1.8.0_121/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1412,23 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/TCP.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/RpcConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1436,10 +1318,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/protocol/InvokerProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,27 +1349,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxy.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/protocol/InvokerProtocol.java">
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RpcRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="738">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/TCP.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/jpg/网课2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/resources/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="350" column="72" lean-forward="true" selection-start-line="350" selection-start-column="72" selection-end-line="350" selection-end-column="72" />
+        <state relative-caret-position="302">
+          <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
         </state>
       </provider>
     </entry>

@@ -367,12 +367,6 @@
             1）remoteAddress： 服务端地址
             2）handler：和服务端通信的处理器
 
-
-
-
-
-
-
 3、Netty核心组件Channel模块讲解
 
     简介:讲解Channel作用，核心模块知识点，生命周期等
