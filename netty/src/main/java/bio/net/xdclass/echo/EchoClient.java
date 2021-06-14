@@ -1,14 +1,18 @@
 package bio.net.xdclass.echo;
 
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
+import java.nio.channels.ServerSocketChannel;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
-import java.net.InetSocketAddress;
+import java.io.IOException;
+import java.net.InetSocketAddress;;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
+import java.util.Iterator;
+import java.util.Set;
 
 public class EchoClient {
 
@@ -55,8 +59,7 @@ public class EchoClient {
 
     }
 
-    public static void main(String []args) throws InterruptedException {
+    public static void main(String []args) throws InterruptedException, IOException {
         new EchoClient("127.0.0.1",8080).start();
     }
-
 }

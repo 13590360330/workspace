@@ -301,7 +301,6 @@
             1)什么是Echo服务：就是一个应答服务（回显服务器），客户端发送什么数据，服务端就响应的对应的数据
             是一个非常有的用于调试和检测的服务
 
-
             2)IDEA + Maven + jdk8
                 netty依赖包
 
@@ -333,9 +332,11 @@
         3）EventLoopGroup 负责分配 EventLoop 到新创建的 Channel，里面包含多个EventLoop
 
             EventLoopGroup -> 多个 EventLoop 
-                EventLoop -> 维护一个 Selector(nio)
+                EventLoop -> 维护一个 Selector(nio使用Selector处理多个通道)
 
-            学习资料：http://ifeve.com/selectors/
+            学习资料：http://ifeve.com/selectors/  (以下实例的详解见这个网页)
+
+            完整实例(Selector):demo.SelectorDemo
 
         4）源码分析默认线程池数量
 
