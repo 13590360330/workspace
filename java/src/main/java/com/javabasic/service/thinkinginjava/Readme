@@ -11,6 +11,7 @@
    6,"迭代器"设计模式(P191):com.java.com.service.Thinking_In_Java.innerclass.Sequence
    7,"模板方法"设计模式(P207):com.java.com.service.Thinking_In_Java.innerclass.GreenhouseControls
    8,"适配器"设计模式(P243):com.java.com.service.Thinking_In_Java.collection.ReversibleArrayList
+      用于使用java的多态特性,可以理解为创建一个实现接口方法的基类,编写需要的类时重写需要重写的方法就可以了
 
 2.如果对基本数据类型执行算术运算或按位运算,只要类型比int小(char,byte,short),这些值会自动转换成int,通常,表达式中出现的最大的数据类型决定了表达式最终结果的数据类型,eg,float*double->double
   (java编程思想P56)
