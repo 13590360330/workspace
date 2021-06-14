@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * TODO java.lang定义的类和接口
+ * TODO 1,获取系统属性
+ * TODO 2,java.lang定义的类和接口
  * 1.抽象类Number是一个超类,用于封装byte,short,int,long,float以及double的类派生自这个超类,
  * Number定义了一些抽象方法,以及各种不同的数字格式返回对象的值,例如doubleValue()返回double类型等...
  * Number包含用于保存各种基本数值类型显示值的具体子类:Double,float,Byte,Short,Integer以及long(分别是对应类型的封装器)
@@ -103,7 +104,5 @@ public class LangUsage {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }

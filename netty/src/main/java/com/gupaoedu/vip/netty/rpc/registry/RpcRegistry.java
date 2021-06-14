@@ -14,12 +14,15 @@ public class RpcRegistry {
     public RpcRegistry(int port){  
         this.port = port;  
     }  
-    public void start(){  
+    public void start(){
+        //主从线程
         EventLoopGroup bossGroup = new NioEventLoopGroup();  
         EventLoopGroup workerGroup = new NioEventLoopGroup();  
           
-        try {  
+        try {
+            //服务端启动引导类
             ServerBootstrap b = new ServerBootstrap();
+            //设置线程池
             b.group(bossGroup, workerGroup)
             		.channel(NioServerSocketChannel.class)  
                     .childHandler(new ChannelInitializer<SocketChannel>() {

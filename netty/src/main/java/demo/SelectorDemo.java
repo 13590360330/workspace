@@ -8,6 +8,9 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * TODO Selector实例
+ */
 public class SelectorDemo {
 
     public static void main(String[] args) throws IOException {

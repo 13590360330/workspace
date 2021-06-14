@@ -12,8 +12,6 @@
         <module>onelife</module>
         <module>spark</module>
         <module>chat</module>
-        <module>tomcat</module>
-        <module>rpc</module>
         <module>netty</module>
     </modules>
     <packaging>pom</packaging>
@@ -55,7 +53,17 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.6.Final</version>
+            <version>4.1.34.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
         </dependency>
         <dependency>
             <groupId>org.msgpack</groupId>

@@ -44,6 +44,7 @@ public class Old {
         System.out.println();
         System.out.println( properties1.getProperty( "Wisconsin" ) );
 
+        //TODO 获取系统属性
         //System Properties是Property的一个特殊实例
         System.out.println("System:"+System.getProperties());
         //(重点)启动项目时,可以通过-D参数设置System properties: java -D key1=value -cp .com.jenkov.MyApp
