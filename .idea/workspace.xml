@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/channel的生命周期.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/thinkinginjava/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/com/javabasic/service/thinkinginjava/Readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/consumer/proxy/RpcProxyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RegistryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/gupaoedu/vip/netty/rpc/registry/RegistryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -53,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="-370">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -343,7 +337,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623684721568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623684774460" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -579,42 +573,7 @@
       <workItem from="1623397588427" duration="9604000" />
       <workItem from="1623550786214" duration="243000" />
       <workItem from="1623631550338" duration="9438000" />
-      <workItem from="1623675300768" duration="6585000" />
-    </task>
-    <task id="LOCAL-00018" summary="version 20210531 16:06">
-      <created>1622448488970</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1622448488970</updated>
-    </task>
-    <task id="LOCAL-00019" summary="version 20210531 16:06">
-      <created>1622456347651</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1622456347651</updated>
-    </task>
-    <task id="LOCAL-00020" summary="version 20210531 16:06">
-      <created>1622456469836</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1622456469836</updated>
-    </task>
-    <task id="LOCAL-00021" summary="version 20210531 16:06">
-      <created>1622456514943</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1622456514943</updated>
-    </task>
-    <task id="LOCAL-00022" summary="version 20210531 19:17">
-      <created>1622459894723</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1622459894723</updated>
+      <workItem from="1623675300768" duration="6737000" />
     </task>
     <task id="LOCAL-00023" summary="version 20210531 19:17">
       <created>1622464263683</created>
@@ -924,18 +883,53 @@
       <option name="project" value="LOCAL" />
       <updated>1623676278213</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="version 20210614 09:44">
+      <created>1623684681201</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684681201</updated>
+    </task>
+    <task id="LOCAL-00068" summary="version 20210614 09:44">
+      <created>1623684691508</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684691508</updated>
+    </task>
+    <task id="LOCAL-00069" summary="version 20210614 09:44">
+      <created>1623684711545</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684711545</updated>
+    </task>
+    <task id="LOCAL-00070" summary="version 20210614 23:32">
+      <created>1623684738185</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684738185</updated>
+    </task>
+    <task id="LOCAL-00071" summary="version 20210614 23:32">
+      <created>1623684779391</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684779391</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166829000" />
+    <option name="totallyTimeSpent" value="166981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58436215" visible="true" weight="0.21179625" />
-      <window_info id="Structure" order="1" sideWeight="0.41563785" side_tool="true" visible="true" weight="0.21179625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.58498585" visible="true" weight="0.21179625" />
+      <window_info id="Structure" order="1" sideWeight="0.41501418" side_tool="true" visible="true" weight="0.21179625" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -944,7 +938,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.31161472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.31161472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -997,7 +991,8 @@
     <MESSAGE value="version 20210610 09:13" />
     <MESSAGE value="version 20210611 14:24" />
     <MESSAGE value="version 20210614 09:44" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210614 09:44" />
+    <MESSAGE value="version 20210614 23:32" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210614 23:32" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1381,7 +1376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="-370">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
