@@ -1,4 +1,4 @@
-package bio.net.xdclass.echo;
+package bio.net.xdclass.echo1;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -10,9 +10,6 @@ import io.netty.util.CharsetUtil;
 
 import java.util.Date;
 
-/**
- * 出栈1
- */
 public class OutboundHandler1 extends ChannelOutboundHandlerAdapter {
 
     @Override

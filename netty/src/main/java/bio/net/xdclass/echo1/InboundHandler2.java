@@ -1,4 +1,4 @@
-package bio.net.xdclass.echo;
+package bio.net.xdclass.echo1;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -6,18 +6,17 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.util.CharsetUtil;
 
-/**
- * 入棧1
- */
-public class InboundHandler1 extends ChannelInboundHandlerAdapter {
+public class InboundHandler2 extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg)
         throws Exception {
         ByteBuf data = (ByteBuf) msg;
-        System.out.println("InboundHandler1 channelRead 服务端收到数据：" + data.toString(CharsetUtil.UTF_8));
-        // 执行下一个InboundHandler
-        ctx.fireChannelRead(Unpooled.copiedBuffer("InboundHandler1 "+data.toString(CharsetUtil.UTF_8), CharsetUtil.UTF_8));
+        System.out.println("InboundHandler2 channelRead 服务端收到数据：" + data.toString(CharsetUtil.UTF_8));
+        //ctx.pipeline().writeAndFlush(Unpooled.copiedBuffer("InboundHandler2 "+data.toString(CharsetUtil.UTF_8), CharsetUtil.UTF_8));
+        //ctx.channel().writeAndFlush(Unpooled.copiedBuffer("InboundHandler2 "+data.toString(CharsetUtil.UTF_8), CharsetUtil.UTF_8));
+        ctx.channel().writeAndFlush(Unpooled.copiedBuffer("InboundHandler2 "+data.toString(CharsetUtil.UTF_8), CharsetUtil.UTF_8));
+
     }
 
     @Override

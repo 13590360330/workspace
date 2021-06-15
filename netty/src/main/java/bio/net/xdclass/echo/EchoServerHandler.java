@@ -13,7 +13,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
 
-        //写数据,第一和第二种数据都会流经当前ChannelHandlerContext之后的所有handler,第三种只会从当前ChannelHandlerContext到下一个handler(见图ChannelHandlerContext.jpg)
+        //写数据,第一和第二种会调用执行所有handler,第三种只会从当前ChannelHandlerContext到下一个handler(见图ChannelHandlerContext.jpg)
         //第一种 (Unpooled.copiedBuffer(xxx,...) 申请一部分内存存储值xxx)
         //Channel channel = ctx.channel();
         //channel.writeAndFlush( Unpooled.copiedBuffer("小滴课堂 xdclass.net" ,CharsetUtil.UTF_8));
