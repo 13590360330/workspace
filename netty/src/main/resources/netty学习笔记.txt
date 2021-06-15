@@ -237,7 +237,7 @@
 
     2、jdk1.4推出NIO,支持非阻塞IO，jdk1.7升级,推出NIO2.0,提供AIO的功能，支持文件和网络套接字的异步IO
 
-7、大话Netty线程模型和Reactor模式(Netty4 P116)
+7、(重点:)大话Netty线程模型和Reactor模式(Netty4 P116)
     简介：讲解reactor模式 和 Netty线程模型
 
     设计模式——Reactor模式（反应器设计模式），是一种基于事件驱动的设计模式，在事件驱动的应用中，将一个或多个客户的服务请求分离（demultiplex）和调度（dispatch）给应用程序。
@@ -406,7 +406,8 @@
                 处理输出数据，适配器 ChannelOutboundHandlerAdapter
 
         ChannelPipeline：
-        好比厂里的流水线一样，可以在上面添加多个ChannelHanler，也可看成是一串 ChannelHandler 实例，拦截穿过 Channel 的输入输出 event,  ChannelPipeline 实现了拦截器的一种高级形式，使得用户可以对事件的处理以及ChannelHanler之间交互获得完全的控制权
+        好比厂里的流水线一样，可以在上面添加多个ChannelHanler，也可看成是一串 ChannelHandler 实例，拦截穿过 Channel 的输入输出 event,
+        ChannelPipeline 实现了拦截器的一种高级形式，使得用户可以对事件的处理以及ChannelHanler之间交互获得完全的控制权
 
     5、Netty核心模块指ChannelHandlerContext模块讲解
         简介：讲解ChannelHandlerContext模块的作用和分析
@@ -417,14 +418,12 @@
             Channel、ChannelPipeline、ChannelHandlerContext 都可以调用此方法，前两者都会在整个管道流里传播，而ChannelHandlerContext就只会在后续的Handler里面传播
 
             2、AbstractChannelHandlerContext类
-                    双向链表结构，next/prev分别是后继节点，和前驱节点
+                    双向链表结构，next/prev(类里面的字段)分别是后继节点，和前驱节点
 
             3、DefaultChannelHandlerContext 是实现类，但是大部分都是父类那边完成，这个只是简单的实现一些方法
                 主要就是判断Handler的类型
 
-                ChannelInboundHandler之间的传递，主要通过调用ctx里面的FireXXX()方法来实现下个handler的调用
-                
-
+                ChannelInboundHandler之间的传递，主要通过调用ctx里面的FireXXX()方法来实现下个handler的调用 (见EchoServerHandler.java)
 
     6、Netty案例实战常见问题之入站出站Handler执行顺序
         简介: 讲解多个入站出站ChannelHandler的执行顺序
@@ -446,8 +445,6 @@
                     OutboundHandler2 write
                     OutboundHandler1 write 
 
-
-
              结论：
                 1）InboundHandler顺序执行，OutboundHandler逆序执行
                 
@@ -460,14 +457,8 @@
 
                 5) outBound和Inbound谁先执行，针对客户端和服务端而言，客户端是发起请求再接受数据，先outbound再inbound，服务端则相反
 
-
-
-
-
-
     7、Netty异步操作模块ChannelFuture讲解
             简介：讲解ChannelFuture异步操作模块及使用注意事项
-
 
     Netty中的所有I/O操作都是异步的,这意味着任何I/O调用都会立即返回，而ChannelFuture会提供有关的信息I/O操作的结果或状态。
   
