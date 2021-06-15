@@ -7,6 +7,9 @@ import io.netty.channel.ChannelOutboundHandlerAdapter;
 import io.netty.channel.ChannelPromise;
 import io.netty.util.CharsetUtil;
 
+/**
+ * 出栈2
+ */
 public class OutboundHandler2 extends ChannelOutboundHandlerAdapter {
 
     @Override

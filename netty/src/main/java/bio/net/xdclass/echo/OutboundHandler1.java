@@ -10,6 +10,9 @@ import io.netty.util.CharsetUtil;
 
 import java.util.Date;
 
+/**
+ * 出栈1
+ */
 public class OutboundHandler1 extends ChannelOutboundHandlerAdapter {
 
     @Override

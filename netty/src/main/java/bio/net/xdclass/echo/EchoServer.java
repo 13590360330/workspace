@@ -12,7 +12,7 @@ public class EchoServer {
 
     private int port;
 
-    public EchoServer(int port){
+    public EchoServer(int port) {
         this.port = port;
     }
 
@@ -25,27 +25,32 @@ public class EchoServer {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workGroup = new NioEventLoopGroup();
 
-        try{
+        try {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
-            serverBootstrap.group(bossGroup, workGroup)
+            serverBootstrap.group( bossGroup, workGroup )
 
-                    .channel(NioServerSocketChannel.class)
+                    .channel( NioServerSocketChannel.class )
 
-                    .childHandler(new ChannelInitializer<SocketChannel>() {
+                    .childHandler( new ChannelInitializer<SocketChannel>() {
 
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new EchoServerHandler());
-                        }
-                    });
+                            ch.pipeline().addLast( new EchoServerHandler() );
 
-            System.out.println("Echo 服务器启动ing");
+                            ch.pipeline().addLast( new InboundHandler1() );
+                            ch.pipeline().addLast( new InboundHandler2() );
+                            ch.pipeline().addLast( new OutboundHandler1() );
+                            ch.pipeline().addLast( new OutboundHandler2() );
+                        }
+                    } );
+
+            System.out.println( "Echo 服务器启动ing" );
 
             //绑定端口，同步等待成功
-            ChannelFuture channelFuture = serverBootstrap.bind(port).sync();
+            ChannelFuture channelFuture = serverBootstrap.bind( port ).sync();
 
             //等待服务端监听端口关闭
             channelFuture.channel().closeFuture().sync();
-        }finally {
+        } finally {
 
             //优雅退出，释放线程池
             workGroup.shutdownGracefully();
@@ -53,19 +58,16 @@ public class EchoServer {
         }
 
 
-
-
-
     }
 
 
-    public static void main(String [] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         int port = 8080;
-        if(args.length > 0){
-            port = Integer.parseInt(args[0]);
+        if (args.length > 0) {
+            port = Integer.parseInt( args[0] );
         }
 
-        new EchoServer(port).run();
+        new EchoServer( port ).run();
 
     }
 
