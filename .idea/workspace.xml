@@ -352,7 +352,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623772637609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623772687336" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -543,9 +543,9 @@
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.SystemDemo" />
       <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.EchoServer (1)" />
       <item itemvalue="Spring Boot.SpringbootApplication" />
       <item itemvalue="Spring Boot.SpringbootApplication (1)" />
-      <item itemvalue="Application.EchoServer (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -595,21 +595,7 @@
       <workItem from="1623550786214" duration="243000" />
       <workItem from="1623631550338" duration="9438000" />
       <workItem from="1623675300768" duration="6737000" />
-      <workItem from="1623763005465" duration="7596000" />
-    </task>
-    <task id="LOCAL-00028" summary="version 20210601 11:42">
-      <created>1622540104002</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1622540104002</updated>
-    </task>
-    <task id="LOCAL-00029" summary="version 20210601 11:42">
-      <created>1622540111791</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1622540111791</updated>
+      <workItem from="1623763005465" duration="7752000" />
     </task>
     <task id="LOCAL-00030" summary="version 20210601 11:42">
       <created>1622540146604</created>
@@ -940,18 +926,32 @@
       <option name="project" value="LOCAL" />
       <updated>1623770721489</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="version 20210615 23:23">
+      <created>1623772642583</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1623772642583</updated>
+    </task>
+    <task id="LOCAL-00078" summary="version 20210615 23:23">
+      <created>1623772692260</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1623772692260</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174577000" />
+    <option name="totallyTimeSpent" value="174733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58230454" visible="true" weight="0.21514745" />
-      <window_info id="Structure" order="1" sideWeight="0.41769546" side_tool="true" visible="true" weight="0.21514745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58215296" visible="true" weight="0.21514745" />
+      <window_info id="Structure" order="1" sideWeight="0.41784704" side_tool="true" visible="true" weight="0.21514745" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -960,7 +960,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.31161472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.31161472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
