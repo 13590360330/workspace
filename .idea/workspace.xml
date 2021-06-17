@@ -352,7 +352,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623934841877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623936423016" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -597,14 +597,7 @@
       <workItem from="1623675300768" duration="6737000" />
       <workItem from="1623763005465" duration="7752000" />
       <workItem from="1623853042724" duration="1507000" />
-      <workItem from="1623931741478" duration="1388000" />
-    </task>
-    <task id="LOCAL-00035" summary="version 20210601 20:49">
-      <created>1622554494508</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1622554494508</updated>
+      <workItem from="1623931741478" duration="2202000" />
     </task>
     <task id="LOCAL-00036" summary="version 20210601 20:49">
       <created>1622595800005</created>
@@ -942,11 +935,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623934593639</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="version 20210617 20:56">
+      <created>1623934851546</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1623934851546</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177628000" />
+    <option name="totallyTimeSpent" value="178442000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -961,7 +961,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57932013" visible="true" weight="0.22050938" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57932013" visible="true" weight="0.22050938" />
       <window_info id="Structure" order="1" sideWeight="0.4206799" side_tool="true" weight="0.22050938" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -982,7 +982,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
