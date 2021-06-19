@@ -467,17 +467,12 @@
 
             已完成：当I/O操作完成，不管是成功、失败还是取消，Future都是标记为已完成的, 失败的时候也有具体的信息，例如原因失败，但请注意，即使失败和取消属于完成状态。
 
-
             注意：不要在IO线程内调用future对象的sync或者await方法
+                (netty的Future扩展了java.util.concurrent.Future,sync()和await()方法都是等待结束,sync()会返回错误原因,和await()不会)
                 不能在channelHandler中调用sync或者await方法
+                可能会导致死锁问题
         
         2）ChannelPromise：继承于ChannelFuture，进一步拓展用于设置IO操作的结果
-
-
-
-
-
-
 
 第六章：高并发架构之Netty网络数据传输编解码精讲
 

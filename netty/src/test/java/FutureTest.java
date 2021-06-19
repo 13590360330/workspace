@@ -13,6 +13,7 @@ public class FutureTest {
 
         ExecutorService executorService = Executors.newCachedThreadPool();
 
+        //Future对象的线程可以和主线程同步执行任务
         Future future =  executorService.submit(new Callable<Object>() {
             public Object call() throws Exception {
                 System.out.println("获取数据中,等待5秒");
