@@ -554,7 +554,6 @@
 
         缺点：耦合在一起，拓展性不佳
 
-
         Codec:组合编解码
             1）ByteToMessageCodec
 
@@ -570,17 +569,7 @@
 
              2）MessageToMessageEncoder
 
-
-
-
-
-
-
-
-
-
-
-第七章、Netty核心知识之网络传输TCP粘包拆包
+第七章、Netty核心知识之网络传输TCP粘包拆包(见拆包和黏包.png)
 
     1、网络编程核心知识之TCP粘包拆包讲解
         简介：讲解什么是TCP粘包拆包讲解
@@ -595,11 +584,6 @@
         接收方的原因: TCP接收到数据放置缓存中，应用程序从缓存中读取 
        
        UDP: 是没有粘包和拆包的问题，有边界协议
-
-
-
-
-
 
     2、TCP半包读写常见解决方案
         简介：讲解TCP半包读写常见的解决办法
@@ -616,10 +600,6 @@
                         3）使用带消息头的协议，消息头存储消息开始标识及消息的长度信息
                                 Header+Body
 
-
-
-
-
     3、Netty自带解决TCP半包读写方案
         简介：讲解Netty自带解决半包读写问题方案介绍
 
@@ -628,21 +608,8 @@
             FixedLengthFrameDecoder：固定长度解码器
             LengthFieldBasedFrameDecoder：message = header+body, 基于长度解码的通用解码器
 
-
-
-
-
-
-    4、Netty案例实战之半包读写问题演示
+    4、Netty案例实战之半包读写问题演示(演示代码bio.net.xdclass.chapter7)
         简介：案例实战之使用netty进行开发，出现的TCP半包读写问题
-
-
-
-
-
-
-
-
 
     5、Netty案例实战之LineBasedFrameDecoder解决TCP半包读写
         简介：讲解使用解码器LineBasedFrameDecoder解决半包读写问题
@@ -651,16 +618,8 @@
 
             2）StringDecoder解码器将对象转成字符串
 
-
-
-
-
-
-
-
-
     6、Netty案例实战之自定义分隔符解决TCP读写问题
-        简介：讲解使用DelimiterBasedFrameDecoder解决TCP半包读写问题
+        简介：讲解使用DelimiterBasedFrameDecoder(自定义分割符解码器)解决TCP半包读写问题(bio.net.xdclass.chapter7_2)
             
             maxLength：
                 表示一行最大的长度，如果超过这个长度依然没有检测自定义分隔符，将会抛出TooLongFrameException
@@ -674,21 +633,12 @@
 
             delimiters：
                 分隔符，ByteBuf类型
-                
 
-
-
-
-
-
-
-
-
-    7、自定义长度半包读写器LengthFieldBasedFrameDecoder讲解
+    7、自定义长度半包读写器LengthFieldBasedFrameDecoder讲解(大型RPC框架,如Dubbo......都有使用)
 
     	简介：自定义长度半包读写器LengthFieldBasedFrameDecoder讲解
 
-    	官方文档：https://netty.io/4.0/api/io/netty/handler/codec/LengthFieldBasedFrameDecoder.html
+    	官方文档(有实例)：https://netty.io/4.0/api/io/netty/handler/codec/LengthFieldBasedFrameDecoder.html
 
     	maxFrameLength 数据包的最大长度
     	
@@ -699,41 +649,18 @@
     	lengthAdjustment 
     	一般 Header + Body，添加到长度字段的补偿值,如果为负数，开发人员认为这个 Header的长度字段是整个消息包的长度，则Netty应该减去对应的数字
 
-
     	initialBytesToStrip 从解码帧中第一次去除的字节数, 获取完一个完整的数据包之后，忽略前面的指定位数的长度字节，应用解码器拿到的就是不带长度域的数据包
 
-
     	failFast 是否快速失败
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 =============================================
 更多干货技术访问小D课堂官网 https://xdclass.net
 小D老师个人微信：jack794666918
 公众号搜索：小D课堂
 =============================================
-    
-
 
 第八 Netty源码分析之基础数据传输讲解和设计模式
 
-    	
-	
     1、Netty核心模块缓冲ByteBuf
         简介：讲解Netty核心之ByteBuf介绍，对比JDK原生ByteBuffer
         ByteBuf：是数据容器(字节容器)
@@ -746,30 +673,21 @@
         	读写使用不同的索引，所以操作便捷
         	自动扩容，使用便捷
 
-
-
-
-
-
-
-
-
-    2、Netty数据存储模块ByteBuf创建方法和常用的模式
+    2、Netty数据存储模块ByteBuf创建方法和常用的模式(BufferTest.java)
         简介:讲解ByteBuf创建方法和常用的模式
 
         	ByteBuf：传递字节数据的容器
 
         	ByteBuf的创建方法
         		1）ByteBufAllocator
-        			 池化(Netty4.x版本后默认使用 PooledByteBufAllocator
+        			 池化(Netty4.x版本后默认使用 PooledByteBufAllocator,
         			 	提高性能并且最大程度减少内存碎片
+        			 	池化是指创建出来的ByteBuf对象可以复用)
 
         			 非池化UnpooledByteBufAllocator： 每次返回新的实例
 
         		2）Unpooled: 提供静态方法创建未池化的ByteBuf，可以创建堆内存和直接内存缓冲区
 
-
-			
         	ByteBuf使用模式
         		堆缓存区HEAP BUFFER:
 	        		优点：存储在JVM的堆空间中，可以快速的分配和释放
@@ -782,63 +700,32 @@
 	        	复合缓冲区COMPOSITE BUFFER:
 	        		可以创建多个不同的ByteBuf，然后放在一起，但是只是一个视图
 
-
 	        	选择：大量IO数据读写，用“直接缓存区”； 业务消息编解码用“堆缓存区”
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  	3、Netty里面的设计模式应用分析
 
  		简介：讲解设计模式的在Netty里面的应用
  	
- 			Builder构造器模式：ServerBootstap 
+ 			Builder构造器模式：通过多个方法构造一个对象,例如:ServerBootstap
+ 			    serverBootstrap.group(bossGroup,workGroup)
+                            .channel(NioServerSocketChannel.class)
+                            .option(ChannelOption.SO_BACKLOG,128)
+                            . ......
 
- 			责任链设计模式：pipeline的事件传播
- 			
+ 			责任链设计模式：例如:pipeline的事件传播
+                 ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
+                                         ch.pipeline().addLast(new StringDecoder());
+                                         ch.pipeline().addLast(new ServerHandler());
+
  			工厂模式： 创建Channel
  			
  			适配器模式：HandlerAdapter
+ 			HandlerAdapter接口中有很多方法,当一个框架中会有大量的HandlerAdapter实现类时,可以创建一个关于HandlerAdapter默认实现的基类,
+ 			然后编写接口实现类时就只用重写需要重写的方法即可
 
  		推荐书籍：《Head First设计模式》
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 第九章 使用Netty搭建单机百万连接测试实战
-
 
 1、搭建单机百万连接的服务器实例的必备知识
     简介：搭建单机百万连接的服务器实例的必备知识
@@ -853,23 +740,11 @@
     3、如何确定一个唯一的TCP连接
         TCP四元组:源IP地址、源端口、目的ip、目的端口
 
-
-
-
-
 2、Netty单机百万连接实战之服务端代码编写
     简介：讲解Netty单机百万连接服务端代码编写
 
-
-
-
-
-
 3、Netty单机百万连接实战之客户端代码编写
     简介：讲解Netty单机百万连接之客户端代码编写
-
-
-
 
 4、阿里云服务器Netty单机百万连接部署实战
     简介：在阿里云服务器部署Netty服务端和Netty客户端代码
