@@ -499,14 +499,6 @@
                 Encoder:编码器
                 Decoder:解码器
                 Codec:编解码器
-
-
-
-
-
-
-
-
     
  2、数据协议处理之Netty解码器Decoder讲解
     简介:讲解Netty的解码器Decoder和使用场景
@@ -514,18 +506,16 @@
         Decoder对应的就是ChannelInboundHandler，主要就是字节数组转换为消息对象
 
         主要是两个方法
-            decode
-            decodeLast
+            decode:一般用這個
+            decodeLast:用于最后的几个字节处理,也就是channal关闭时,产生的最后一个消息
         抽象解码器 
             1)ByteToMessageDecoder
-                用于将字节转为消息，需要检查缓冲区是否有足够的字节
+                用于将字节转为消息，需要检查缓冲区是否有足够的字节(见CustomDecoder.java)
 
             2)ReplayingDecoder
                 继承ByteToMessageDecoder，不需要检查缓冲区是否有足够的字节，但是ReplayingDecoder速度略满于ByteToMessageDecoder，不是所有的ByteBuf都支持
 
-
             选择：项目复杂性高则使用ReplayingDecoder，否则使用 ByteToMessageDecoder 
-
 
             3）MessageToMessageDecoder
                 用于从一种消息解码为另外一种消息（例如POJO到POJO）
@@ -538,9 +528,6 @@
             LengthFieldBasedFrameDecoder：message = header+body, 基于长度解码的通用解码器
             StringDecoder：文本解码器，将接收到的对象转化为字符串，一般会与上面的进行配合，然后在后面添加业务handle
 
-
-
-
 3、数据协议处理之Netty编码器Encoder讲解
 
     简介：讲解Netty编码器Encoder
@@ -549,21 +536,13 @@
 
         Netty本身未提供和解码一样的编码器，是因为场景不同，两者非对等的
 
-
         1)MessageToByteEncoder
-            消息转为字节数组,调用write方法，会先判断当前编码器是否支持需要发送的消息类型，如果不支持，则透传；
+            消息转为字节数组,调用write方法，会先判断当前编码器是否支持需要发送的消息类型，如果不支持，则透传(传给下一个Encoder,
+            直到支持对消息msg的类型进行编码);
+            在MessageToByteEncoder.java中的write方法里会通过encode(ctx, cast, buf),将消息发送出去
 
         2)MessageToMessageEncoder
             用于从一种消息编码为另外一种消息（例如POJO到POJO）
-        
-
-
-
-
-
-
-
-
 
 4、数据协议处理之Netty编解码器类Codec讲解
     
@@ -589,7 +568,7 @@
         encoder:编码
              1）ByteToMessageEncoder
 
-            2）MessageToMessageEncoder
+             2）MessageToMessageEncoder
 
 
 
