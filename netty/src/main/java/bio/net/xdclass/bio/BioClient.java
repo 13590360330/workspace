@@ -21,7 +21,6 @@ public class BioClient {
             out.println("i am client");
             String resp = in.readLine();
             System.out.println("当前服务器时间是:"+resp);
-
         }catch (Exception e){
             e.printStackTrace();
 

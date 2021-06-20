@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
+    <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="version 20210621 06:35">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java" afterDir="false" />
     </list>
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state relative-caret-position="216">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -357,7 +357,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624228496058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624228552498" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -610,14 +610,7 @@
       <workItem from="1624150148923" duration="13252000" />
       <workItem from="1624202925133" duration="719000" />
       <workItem from="1624204189947" duration="144000" />
-      <workItem from="1624228316172" duration="177000" />
-    </task>
-    <task id="LOCAL-00054" summary="version 20210608 09:44">
-      <created>1623146837097</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1623146837097</updated>
+      <workItem from="1624228316172" duration="233000" />
     </task>
     <task id="LOCAL-00055" summary="version 20210608 20:47">
       <created>1623156474018</created>
@@ -955,11 +948,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624228462088</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="version 20210621 06:35">
+      <created>1624228509708</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1624228509708</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197530000" />
+    <option name="totallyTimeSpent" value="197586000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1014,7 +1014,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="version 20210531 12:00" />
     <MESSAGE value="version 20210531 15:22" />
     <MESSAGE value="version 20210531 16:06" />
     <MESSAGE value="version 20210531 19:17" />
@@ -1039,7 +1038,8 @@
     <MESSAGE value="version 20210620 23:19" />
     <MESSAGE value="version 20210620 23:47" />
     <MESSAGE value="version 20210621 06:33" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210621 06:33" />
+    <MESSAGE value="version 20210621 06:35" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210621 06:35" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1393,8 +1393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/bio/BioClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>
