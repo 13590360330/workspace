@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_1/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_1/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_1/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_1/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_2/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_2/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_2/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_2/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_3/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_3/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_3/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_3/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/chapter7_3/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/ByteBuf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/resources/jpg/拆包和黏包.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/test/java/BufferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -368,7 +347,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624202346146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624202372409" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -618,21 +597,7 @@
       <workItem from="1623939523132" duration="1054000" />
       <workItem from="1623944669489" duration="24000" />
       <workItem from="1624111349699" duration="2693000" />
-      <workItem from="1624150148923" duration="13202000" />
-    </task>
-    <task id="LOCAL-00044" summary="version 20210602 20:26">
-      <created>1622769090113</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1622769090113</updated>
-    </task>
-    <task id="LOCAL-00045" summary="version 20210602 20:26">
-      <created>1622769246912</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1622769246912</updated>
+      <workItem from="1624150148923" duration="13252000" />
     </task>
     <task id="LOCAL-00046" summary="version 20210602 20:26">
       <created>1622769348821</created>
@@ -963,11 +928,25 @@
       <option name="project" value="LOCAL" />
       <updated>1624171193265</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="version 20210620 23:19">
+      <created>1624202365690</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1624202365690</updated>
+    </task>
+    <task id="LOCAL-00094" summary="version 20210620 23:19">
+      <created>1624202377723</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1624202377723</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196440000" />
+    <option name="totallyTimeSpent" value="196490000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1022,7 +1001,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="version 20210530 19:16" />
     <MESSAGE value="version 20210531 11:05" />
     <MESSAGE value="version 20210531 11:29" />
     <MESSAGE value="version 20210531 12:00" />
@@ -1047,7 +1025,8 @@
     <MESSAGE value="version 20210616 22:18" />
     <MESSAGE value="version 20210617 20:56" />
     <MESSAGE value="version 20210619 23:09" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210619 23:09" />
+    <MESSAGE value="version 20210620 23:19" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210620 23:19" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
