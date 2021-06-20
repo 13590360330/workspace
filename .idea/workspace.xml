@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/decoder/CustomDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/echo1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/bio/net/xdclass/encoder/CustomEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -582,14 +578,7 @@
       <workItem from="1623939523132" duration="1054000" />
       <workItem from="1623944669489" duration="24000" />
       <workItem from="1624111349699" duration="2693000" />
-      <workItem from="1624150148923" duration="3671000" />
-    </task>
-    <task id="LOCAL-00042" summary="version 20210602 20:23">
-      <created>1622636758949</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1622636758949</updated>
+      <workItem from="1624150148923" duration="4326000" />
     </task>
     <task id="LOCAL-00043" summary="version 20210602 20:26">
       <created>1622636804088</created>
@@ -927,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624150170178</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="version 20210619 23:09">
+      <created>1624159718506</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1624159718506</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186909000" />
+    <option name="totallyTimeSpent" value="187564000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
