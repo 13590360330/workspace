@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
+            <state relative-caret-position="393">
+              <caret line="704" column="22" lean-forward="true" selection-start-line="704" selection-start-column="22" selection-end-line="704" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -600,14 +599,7 @@
       <workItem from="1624111349699" duration="2693000" />
       <workItem from="1624150148923" duration="13252000" />
       <workItem from="1624202925133" duration="719000" />
-      <workItem from="1624204189947" duration="123000" />
-    </task>
-    <task id="LOCAL-00051" summary="version 20210608 09:44">
-      <created>1623116837497</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1623116837497</updated>
+      <workItem from="1624204189947" duration="144000" />
     </task>
     <task id="LOCAL-00052" summary="version 20210608 09:44">
       <created>1623117005613</created>
@@ -945,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624204238755</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="version 20210620 23:47">
+      <created>1624204319328</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1624204319328</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197332000" />
+    <option name="totallyTimeSpent" value="197353000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -964,7 +963,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57223797" visible="true" weight="0.2419571" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57223797" visible="true" weight="0.2419571" />
       <window_info id="Structure" order="1" sideWeight="0.42776203" side_tool="true" visible="true" weight="0.2419571" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1349,8 +1348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
+        <state relative-caret-position="393">
+          <caret line="704" column="22" lean-forward="true" selection-start-line="704" selection-start-column="22" selection-end-line="704" selection-end-column="22" />
         </state>
       </provider>
     </entry>
