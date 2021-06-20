@@ -598,14 +598,7 @@
       <workItem from="1623944669489" duration="24000" />
       <workItem from="1624111349699" duration="2693000" />
       <workItem from="1624150148923" duration="13252000" />
-      <workItem from="1624202925133" duration="678000" />
-    </task>
-    <task id="LOCAL-00049" summary="version 20210608 09:44">
-      <created>1623116727730</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1623116727730</updated>
+      <workItem from="1624202925133" duration="719000" />
     </task>
     <task id="LOCAL-00050" summary="version 20210608 09:44">
       <created>1623116798472</created>
@@ -943,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624204097345</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="version 20210620 23:47">
+      <created>1624204140231</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1624204140231</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197168000" />
+    <option name="totallyTimeSpent" value="197209000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
