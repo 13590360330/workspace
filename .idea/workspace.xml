@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/test/java/FutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/test/java/FutureTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -372,7 +370,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624115162635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624115359797" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -621,14 +619,7 @@
       <workItem from="1623937615489" duration="1025000" />
       <workItem from="1623939523132" duration="1054000" />
       <workItem from="1623944669489" duration="24000" />
-      <workItem from="1624111349699" duration="2440000" />
-    </task>
-    <task id="LOCAL-00040" summary="version 20210601 20:49">
-      <created>1622605549513</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1622605549513</updated>
+      <workItem from="1624111349699" duration="2693000" />
     </task>
     <task id="LOCAL-00041" summary="version 20210602 20:23">
       <created>1622636595727</created>
@@ -966,11 +957,18 @@
       <option name="project" value="LOCAL" />
       <updated>1623944681943</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="version 20210619 23:09">
+      <created>1624115382888</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1624115382888</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182985000" />
+    <option name="totallyTimeSpent" value="183238000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1025,7 +1023,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="version 20210530 17:26" />
     <MESSAGE value="version 20210530 19:16" />
     <MESSAGE value="version 20210531 11:05" />
     <MESSAGE value="version 20210531 11:29" />
@@ -1050,7 +1047,8 @@
     <MESSAGE value="version 20210615 23:23" />
     <MESSAGE value="version 20210616 22:18" />
     <MESSAGE value="version 20210617 20:56" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20210617 20:56" />
+    <MESSAGE value="version 20210619 23:09" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20210619 23:09" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
