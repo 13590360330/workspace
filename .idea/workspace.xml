@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68ebcee7-6781-42a4-8d04-6f392a44dc6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/onelife/target/" />
     <ignored path="$PROJECT_DIR$/java/target/" />
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
+            <state relative-caret-position="1310">
+              <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
             </state>
           </provider>
         </entry>
@@ -599,14 +598,7 @@
       <workItem from="1623944669489" duration="24000" />
       <workItem from="1624111349699" duration="2693000" />
       <workItem from="1624150148923" duration="13252000" />
-      <workItem from="1624202925133" duration="664000" />
-    </task>
-    <task id="LOCAL-00048" summary="version 20210608 09:44">
-      <created>1623116716179</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1623116716179</updated>
+      <workItem from="1624202925133" duration="678000" />
     </task>
     <task id="LOCAL-00049" summary="version 20210608 09:44">
       <created>1623116727730</created>
@@ -944,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1624204066391</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="version 20210620 23:47">
+      <created>1624204097345</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1624204097345</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197154000" />
+    <option name="totallyTimeSpent" value="197168000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1348,8 +1347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty/src/main/resources/netty学习笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="703" column="1" selection-start-line="703" selection-start-column="1" selection-end-line="703" selection-end-column="1" />
+        <state relative-caret-position="1310">
+          <caret line="718" lean-forward="true" selection-start-line="718" selection-end-line="718" />
         </state>
       </provider>
     </entry>
