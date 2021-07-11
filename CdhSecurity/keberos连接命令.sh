@@ -12,9 +12,13 @@ beeline -u "jdbc:hive2://quickstart.cloudera:10000/source;principal=hive/quickst
 
 
 
+kadmin.local -q "addprinc  cloudera"
+kadmin.local -q "xst -k /tmp/del/cloudera.keytab cloudera@HADOOP.COM"
+chmod 777 /tmp/del/cloudera.keytab
+kinit -kt /tmp/del/cloudera.keytab cloudera
 
 
-kinit -kt /var/run/cloudera-scm-agent/process/1386-hive-HIVESERVER2/hive.keytab hive/quickstart.cloudera@HADOOP.COM
+kinit -kt /var/run/cloudera-scm-agent/process/1452-hive-HIVESERVER2/hive.keytab hive/quickstart.cloudera@HADOOP.COM
 beeline -u "jdbc:hive2://quickstart.cloudera:10000/default;principal=hive/quickstart.cloudera@HADOOP.COM;hive.server2.proxy.user=hive"
 
 

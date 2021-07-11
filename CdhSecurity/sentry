@@ -18,3 +18,6 @@
 
 总结
  kerberos+sentry的正规做法,是创建相同的用户名来映射用户名和用户权限
+
+
+ acl:https://blog.csdn.net/u010003835/article/details/71172873
