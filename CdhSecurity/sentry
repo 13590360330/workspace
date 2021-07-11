@@ -1,0 +1,20 @@
+1,Sentry中的role和hue的role不同,sentry的role也是hive的role,是权限的载体,hue的role是登录的用户,他们的group存在映射关系
+  hue登录后,可以查看sentry的role:show current roles; hue会使用hue的登录用户的用户组,去查询sentry同名组里的role,使用这个role做相应的操作
+
+2,通过kerberos认证的用户,使用hive,或者beeline,但是如果kerberos主体没有相应的权限或者hive没有这个role,当做出操作是就会报权限不够
+
+3,Sentry的用户组会映射hue的用户组,如果用户组在两者当中都存在,则能映射成功
+    查询sql元数据库(Sentry):
+    use sentry;
+    select * from
+    SENTRY_ROLE_GROUP_MAP t1
+    join SENTRY_ROLE t2 on t1.ROLE_ID=t2.ROLE_ID
+    join SENTRY_GROUP t3 on t1.GROUP_ID=t3.GROUP_ID;
+
+4,sentry语法
+    GRANT select ON DATABASE * TO ROLE admin_role;
+    grant all on database all to role hive;
+
+
+总结
+ kerberos+sentry的正规做法,是创建相同的用户名来映射用户名和用户权限

@@ -1,19 +1,22 @@
 #!/bin/bash
-##########################################
-#author:liucheng                         #
-#createtime:2020/04/02                   #
-#desc:kerberos命令                       #
-#para:$user ${1}Kerbero认证用户          #
-##########################################
+##################################################################################
+#author:liucheng
+#createtime:2020/04/02
+#desc:kerberos命令
+#para:$user ${1}Kerbero认证用户
+#注意(详细操作):https://www.cnblogs.com/nf01/articles/14075232.html
+##################################################################################
 #以下部分手动执行
 #之后会生成或更新/var/kerberos/krb5kdc/principal
 #删除principal
-#kdb5_util -r ETLUSER.COM -m destroy -f
+#kdb5_util -r HADOOP.COM -m destroy -f
 #创建realms域密码
 #cd /usr/sbin/
-#/usr/sbin/kdb5_util create -s -r ETLUSER.COM
+#/usr/sbin/kdb5_util create -s -r HADOOP.COM
+#输入admin(二次)
 #创建CM使用的超级用户,以后会用此账户管理CM主体 admin/admin 指:用户/用户组
 #/usr/sbin/kadmin.local -q "addprinc admin/admin"
+#输入admin(二次)
 #启动
 #service krb5kdc start
 #service kadmin start
@@ -28,12 +31,12 @@
 #klist
 #生成keytab文件
 #kadmin.local
-#xst -k /home/etluser/etlscript/Kerberos/keytab/etluser.keytab etluser
+#xst -k /home/bigdata/bigdata/kerberos/keytab/etluser.keytab etluser
 #基于keytab文件进行认证
-#kinit -kt /home/etluser/etlscript/Kerberos/keytab/etluser.keytab etluser
+#kinit -kt /home/bigdata/bigdata/Kerberos/keytab/etluser.keytab etluser
 #注销授权(看需要执行)
 #kdestory
-#krbtgt/ETLUSER.COM@ETLUSER.COM 管理票据刷新时间等信息
+#krbtgt/HADOOP.COM@HADOOP.COM 管理票据刷新时间等信息
 
 user=${1}
 function init_kerberos() {
@@ -67,7 +70,7 @@ then
 elif [ "$user" != "hdfs" ]&&[ "$user" != "root" ]
 then
     echo "${user}用户授予kerberos ${user}权限"
-    kinit -kt /home/etluser/etlscript/Kerberos/keytab/${user}.keytab ${user}
+    kinit -kt /home/etluser/bigdata/Kerberos/keytab/${user}.keytab ${user}
 else
     echo "...."
 fi
