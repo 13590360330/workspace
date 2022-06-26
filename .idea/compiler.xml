@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chat" />
+        <module name="flink" />
         <module name="java" />
-        <module name="netty" />
-        <module name="onelife" />
         <module name="spark" />
+        <module name="chat" />
+        <module name="onelife" />
         <module name="springboot" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

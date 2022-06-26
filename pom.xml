@@ -13,6 +13,7 @@
         <module>spark</module>
         <module>chat</module>
         <module>netty</module>
+        <module>flink</module>
     </modules>
     <packaging>pom</packaging>
 
