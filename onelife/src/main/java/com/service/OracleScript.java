@@ -1,7 +1,6 @@
 package com.service;
 
 import com.dao.AnalysisExcel;
-import com.dao.CreateOracleScript;
 import com.domain.Block;
 import com.domain.SqlContent;
 
@@ -24,9 +23,9 @@ public class OracleScript {
 
         List<SqlContent> sqlContent = analysisExcel.createSqlContent( xlsxContent );
 
-        //依据mapping内容生成Script
-        CreateOracleScript createOralceScript = new CreateOracleScript();
-        createOralceScript.createScript( sqlContent );
+//        //依据mapping内容生成Script
+//        CreateOracleScript createOralceScript = new CreateOracleScript();
+//        createOralceScript.createScript( sqlContent );
 
     }
 }

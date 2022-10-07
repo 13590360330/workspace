@@ -1,10 +1,8 @@
 package com.service;
 
 import com.dao.AnalysisExcel;
-import com.dao.CreateKettleScript;
 import com.domain.Block;
 import com.domain.SqlContent;
-import com.domain.basics.Column;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,9 +24,9 @@ public class KettleScript {
         List<SqlContent> sqlContent = analysisExcel.createSqlContent( xlsxContent );
 
         //依据mapping内容生成Script
-        CreateKettleScript createKetlleScript = new CreateKettleScript();
-        createKetlleScript.createScript( sqlContent, "aaa", "aaa", "aaa", "aaa", "aaa", "aaa", "aaa"
-                , "aaa", "aaa", "aaa", "aaa", "aaa", "aaa", "aaa" );
+//        CreateKettleScript createKetlleScript = new CreateKettleScript();
+//        createKetlleScript.createScript( sqlContent, "aaa", "aaa", "aaa", "aaa", "aaa", "aaa", "aaa"
+//                , "aaa", "aaa", "aaa", "aaa", "aaa", "aaa", "aaa" );
     }
 
 }

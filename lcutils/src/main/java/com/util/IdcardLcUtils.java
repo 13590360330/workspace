@@ -1,6 +1,7 @@
+package com.util;
+
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.IdcardUtil;
 
 
@@ -9,7 +10,7 @@ import cn.hutool.core.util.IdcardUtil;
  * date：2022-10-02
  * desc: 身份证工具-IdcardUtil
  */
-public class IdcardUtilLearn {
+public class IdcardLcUtils {
 
     public static void main(String[] args) {
 

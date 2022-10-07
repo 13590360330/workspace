@@ -1,4 +1,4 @@
-package utils;
+package com.util;
 
 public class ConstantUtils {
     public static final String BLANK = " ";

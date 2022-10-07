@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.core.thread.ExecutorBuilder;
 import lombok.SneakyThrows;
 
@@ -10,7 +12,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * date：2022-10-02
  * desc: 线程池
  */
-public class ThreadUtilLearn {
+public class ThreadUtilLcUtils {
 
     public static void main(String[] args) {
 

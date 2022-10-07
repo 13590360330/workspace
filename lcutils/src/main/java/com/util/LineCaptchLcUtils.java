@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.CircleCaptcha;
 import cn.hutool.captcha.LineCaptcha;
@@ -12,7 +14,7 @@ import cn.hutool.core.lang.Console;
  * date：2022-10-02
  * desc: 生成二维码图片
  */
-public class LineCaptchLearn {
+public class LineCaptchLcUtils {
 
     public static void main(String[] args) {
         //定义图形验证码的长和宽

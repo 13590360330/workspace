@@ -1,6 +1,7 @@
+package com.util;
+
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.io.unit.DataUnit;
 import cn.hutool.core.io.watch.WatchMonitor;
 import cn.hutool.core.io.watch.Watcher;
 import cn.hutool.core.lang.Console;
@@ -14,7 +15,7 @@ import java.util.Arrays;
  * author:liuch
  * desc: 文件和目录监控   待完善
  */
-public class WatchMonitorLearn {
+public class WatchMonitorLcUtils {
 
     public static void main(String[] args) {
         File file = FileUtil.file( "C:\\Users\\Administrator\\Desktop\\11" );

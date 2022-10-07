@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.core.util.DesensitizedUtil;
 
 
@@ -6,7 +8,7 @@ import cn.hutool.core.util.DesensitizedUtil;
  * date：2022-10-02
  * desc: 信息脱敏工具-DesensitizedUtil
  */
-public class DesensitizedUtilLearn {
+public class DesensitizedLcUtils {
 
     public static void main(String[] args) {
         // 5***************1X

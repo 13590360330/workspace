@@ -1,6 +1,5 @@
-import cn.hutool.cache.Cache;
-import cn.hutool.cache.CacheUtil;
-import cn.hutool.core.lang.Assert;
+package com.util;
+
 import cn.hutool.core.util.ReUtil;
 
 import java.util.ArrayList;
@@ -14,7 +13,7 @@ import java.util.regex.Pattern;
  * date：2022-10-02
  * desc: 正则工具-ReUtil
  */
-public class ReUtilLearn {
+public class ReUtilLcUtils {
 
     public static void main(String[] args) {
         String content = "ZZZaaabbbccc中文1234";

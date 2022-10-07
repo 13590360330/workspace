@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.core.lang.Singleton;
 
 
@@ -6,7 +8,7 @@ import cn.hutool.core.lang.Singleton;
  * date：2022-10-02
  * desc: 单例工具-Singleton
  */
-public class SingletonLearn {
+public class SingletonLcUtils {
 
     /**
      * 动物接口

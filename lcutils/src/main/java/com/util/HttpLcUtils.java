@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.core.lang.Console;
 import cn.hutool.http.Header;
 import cn.hutool.http.HttpRequest;
@@ -5,7 +7,7 @@ import cn.hutool.http.HttpUtil;
 
 import java.util.HashMap;
 
-public class HttpUtilLearn {
+public class HttpLcUtils {
 
 
     public static void main(String[] args) {

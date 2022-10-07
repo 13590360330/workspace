@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;
 import cn.hutool.db.ds.DSFactory;
@@ -13,7 +15,7 @@ import java.util.List;
  * date：2022-10-02
  * desc: 数据库操作
  */
-public class DbLearn {
+public class DbLcUtils {
 
     public static void main(String[] args) throws SQLException {
 

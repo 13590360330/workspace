@@ -1,3 +1,5 @@
+package com.util;
+
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.resource.ClassPathResource;
 import cn.hutool.core.util.XmlUtil;
@@ -11,7 +13,7 @@ import java.nio.charset.Charset;
  * date：2022-10-02
  * desc: XML工具-XmlUtil
  */
-public class XmlUtilLearn {
+public class XmlUtilLcUtils {
 
     public static void main(String[] args) {
         ClassPathResource resource = new ClassPathResource( "111.xml" );

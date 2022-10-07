@@ -11,8 +11,11 @@
 
     <artifactId>feidai</artifactId>
 
-    <properties>
-        <poi.version>4.1.0</poi.version>
-    </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.workspace</groupId>
+            <artifactId>lcutils</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
 </project>
